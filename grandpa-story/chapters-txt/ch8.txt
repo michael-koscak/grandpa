@@ -1,26 +1,6 @@
 [
   {
     "type": "photo",
-    "title": "St. Stephen\u2019s Church Wedding (Chicago, 1954)",
-    "placement": "\"Wally and I married at St. Stephen\u2019s Church on January 7, 1956, and it felt like the whole church was shining.\"",
-    "summary": "A mid-1950s Catholic wedding in Chicago. St. Stephen\u2019s is where Mark and Wally married, reflecting the era\u2019s immigrant Catholic traditions and the joy of new families starting out in America.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Wedding%2C_1954.jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wedding,_1954.jpg",
-    "credit": "Wikimedia Commons",
-    "year": "1954"
-  },
-  {
-    "type": "photo",
-    "title": "Levittown, Pennsylvania (1959) \u2013 Postwar Suburb",
-    "placement": "\"Looking out our front window at rows of similar houses, I felt we\u2019d achieved the American dream of suburban family life.\"",
-    "summary": "An aerial view of Levittown, Pennsylvania (circa 1959):contentReference[oaicite:0]{index=0}. Levittown was one of the first large planned suburbs built after WWII, symbolizing the era\u2019s housing boom. Government loans and mass production made homeownership possible for many veteran and immigrant families:contentReference[oaicite:1]{index=1}. Our new neighborhood in Franklin Park followed the same pattern of orderly streets and modest family homes.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/LevittownPA.jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LevittownPA.jpg",
-    "credit": "Wikimedia Commons",
-    "year": "1959"
-  },
-  {
-    "type": "photo",
     "title": "Admiral Electronics Advertisement (1959)",
     "placement": "\"My first job was at Admiral Corp, where we built televisions and radios for post-war American families:contentReference[oaicite:2]{index=2}.\"",
     "summary": "Admiral Corporation was a major Chicago-area electronics company founded by Italian immigrant Ross Siragusa, which began making televisions in 1948:contentReference[oaicite:3]{index=3}. This 1959 sales poster for an Admiral transistor radio reflects the 1950s consumer electronics boom. Mark\u2019s work at Admiral connected him to this era\u2019s radio and TV industry.",
@@ -34,7 +14,7 @@
     "title": "Altgeld Hall, Northern Illinois University (DeKalb, IL)",
     "placement": "\"I remember bringing Jane to campus: she posed for a picture in front of Altgeld Hall during her freshman year at NIU.\"",
     "summary": "Altgeld Hall (center) is the oldest building on Northern Illinois University\u2019s campus in DeKalb, Illinois:contentReference[oaicite:4]{index=4}. NIU was founded in 1895 and expanded greatly in the mid-20th century to serve a growing middle-class student population. For many suburban Chicago families like Mark's, the expansion of state universities in the 1960s\u201370s made college education possible for children of immigrants.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Altgeld_Hall-1st_bldg_on_campus_ever.JPG",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Altgeld_Hall-1st_bldg_on_campus_ever.JPG",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Altgeld_Hall-1st_bldg_on_campus_ever.JPG",
     "credit": "Wikimedia Commons",
     "year": "2005"

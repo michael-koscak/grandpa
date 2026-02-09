@@ -249,26 +249,6 @@ Parish life included weekly Mass, sacraments, and social events. Children typica
   ],
   photos: [
     {
-      id: 'chicago-wedding-1954',
-      title: 'St. Stephen\'s Church Wedding (Chicago, 1954)',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/0/0a/Wedding%2C_1954.jpg',
-      caption: 'A mid-1950s Catholic wedding in Chicago. St. Stephen\'s is where Mark and Wally married on January 7, 1956, reflecting the era\'s immigrant Catholic traditions and the joy of new families starting out in America.',
-      credit: 'Wikimedia Commons',
-      year: '1954',
-      sourceUrl: 'https://commons.wikimedia.org/wiki/File:Wedding,_1954.jpg',
-      afterParagraph: 0,
-    },
-    {
-      id: 'levittown-suburb',
-      title: 'Levittown, Pennsylvania (1959) – Postwar Suburb',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/6/64/LevittownPA.jpg',
-      caption: 'An aerial view of Levittown, Pennsylvania (circa 1959). Levittown was one of the first large planned suburbs built after WWII, symbolizing the era\'s housing boom. Government loans and mass production made homeownership possible for veteran and immigrant families. Mark and Wally\'s Franklin Park neighborhood followed the same pattern.',
-      credit: 'Wikimedia Commons',
-      year: '1959',
-      sourceUrl: 'https://commons.wikimedia.org/wiki/File:LevittownPA.jpg',
-      afterParagraph: 0,
-    },
-    {
       id: 'admiral-advertisement',
       title: 'Admiral Electronics Advertisement (1959)',
       imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/6/66/Admiral_7-Transistor_Pocket_Radio_Window_Sales_Poster%2C_Distributed_to_Dealers_in_August_1959_%288476734361%29.jpg',
@@ -281,7 +261,7 @@ Parish life included weekly Mass, sacraments, and social events. Children typica
     {
       id: 'niu-altgeld-hall',
       title: 'Altgeld Hall, Northern Illinois University (DeKalb, IL)',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d3/Altgeld_Hall-1st_bldg_on_campus_ever.JPG',
+      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/a/a1/Altgeld_Hall-1st_bldg_on_campus_ever.JPG',
       caption: 'Altgeld Hall (center) is the oldest building on Northern Illinois University\'s campus in DeKalb, Illinois. NIU expanded greatly in the mid-20th century to serve a growing middle-class student population. For suburban Chicago families like Mark\'s, the expansion of state universities made college education possible for children of immigrants.',
       credit: 'Wikimedia Commons',
       year: '2005',
