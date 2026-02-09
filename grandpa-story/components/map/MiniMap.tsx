@@ -7,7 +7,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import { getLocationById, locationColors, MapLocation } from '@/lib/mapData';
 import { MAPBOX_TOKEN, MAP_STYLE, HAS_MAPBOX_TOKEN } from '@/lib/mapConfig';
 
-if (HAS_MAPBOX_TOKEN) {
+if (typeof window !== 'undefined' && HAS_MAPBOX_TOKEN) {
   mapboxgl.accessToken = MAPBOX_TOKEN;
 }
 
@@ -37,45 +37,46 @@ export default function MiniMap({
   useEffect(() => {
     if (!HAS_MAPBOX_TOKEN || map.current || !mapContainer.current || resolvedLocations.length === 0) return;
 
-    // Calculate center and zoom
-    const coords = resolvedLocations.map(l => l.coordinates);
-    
-    let center: [number, number];
-    let zoom: number;
-
-    if (coords.length === 1) {
-      center = coords[0];
-      zoom = 10;
-    } else {
-      // Calculate center of all points
-      const lngSum = coords.reduce((sum, c) => sum + c[0], 0);
-      const latSum = coords.reduce((sum, c) => sum + c[1], 0);
-      center = [lngSum / coords.length, latSum / coords.length];
+    try {
+      // Calculate center and zoom
+      const coords = resolvedLocations.map(l => l.coordinates);
       
-      // Calculate appropriate zoom
-      const lngs = coords.map(c => c[0]);
-      const lats = coords.map(c => c[1]);
-      const lngRange = Math.max(...lngs) - Math.min(...lngs);
-      const latRange = Math.max(...lats) - Math.min(...lats);
-      const maxRange = Math.max(lngRange, latRange);
-      
-      if (maxRange > 50) zoom = 2;
-      else if (maxRange > 20) zoom = 4;
-      else if (maxRange > 10) zoom = 5;
-      else if (maxRange > 5) zoom = 6;
-      else if (maxRange > 2) zoom = 7;
-      else if (maxRange > 1) zoom = 8;
-      else zoom = 10;
-    }
+      let center: [number, number];
+      let zoom: number;
 
-    map.current = new mapboxgl.Map({
-      container: mapContainer.current,
-      style: MAP_STYLE,
-      center,
-      zoom,
-      interactive: false,
-      attributionControl: false,
-    });
+      if (coords.length === 1) {
+        center = coords[0];
+        zoom = 10;
+      } else {
+        // Calculate center of all points
+        const lngSum = coords.reduce((sum, c) => sum + c[0], 0);
+        const latSum = coords.reduce((sum, c) => sum + c[1], 0);
+        center = [lngSum / coords.length, latSum / coords.length];
+        
+        // Calculate appropriate zoom
+        const lngs = coords.map(c => c[0]);
+        const lats = coords.map(c => c[1]);
+        const lngRange = Math.max(...lngs) - Math.min(...lngs);
+        const latRange = Math.max(...lats) - Math.min(...lats);
+        const maxRange = Math.max(lngRange, latRange);
+        
+        if (maxRange > 50) zoom = 2;
+        else if (maxRange > 20) zoom = 4;
+        else if (maxRange > 10) zoom = 5;
+        else if (maxRange > 5) zoom = 6;
+        else if (maxRange > 2) zoom = 7;
+        else if (maxRange > 1) zoom = 8;
+        else zoom = 10;
+      }
+
+      map.current = new mapboxgl.Map({
+        container: mapContainer.current,
+        style: MAP_STYLE,
+        center,
+        zoom,
+        interactive: false,
+        attributionControl: false,
+      });
 
     map.current.on('load', () => {
       setMapLoaded(true);
@@ -137,11 +138,18 @@ export default function MiniMap({
           },
         });
       }
-    });
+    } catch (error) {
+      console.error('Error initializing MiniMap:', error);
+      setMapLoaded(false);
+    }
 
     return () => {
-      map.current?.remove();
-      map.current = null;
+      try {
+        map.current?.remove();
+        map.current = null;
+      } catch (error) {
+        console.error('Error cleaning up map:', error);
+      }
     };
   }, [resolvedLocations]);
 
