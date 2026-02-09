@@ -1,10 +1,6 @@
 'use client';
 
 export default function EnvDebug() {
-  if (process.env.NODE_ENV === 'production') {
-    return null; // Don't show in production
-  }
-
   const token = process.env.NEXT_PUBLIC_MAPBOX_TOKEN || '';
   
   return (
