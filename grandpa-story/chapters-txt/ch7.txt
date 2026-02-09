@@ -1,0 +1,186 @@
+[
+  {
+    "type": "photo",
+    "title": "Chicago Rug Factory Loom (ca. 1950)",
+    "placement": "\"When I arrived in Chicago I took a job operating an industrial loom at a local factory...\"",
+    "summary": "In Chicago’s 1950s manufacturing boom, workers like Mark ran machines in factories. This photo shows a man operating a rug loom at the Olsen Rug Company in Chicago around 1950:contentReference[oaicite:0]{index=0}.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Workman_operating_an_industrial_loom_strung_with_hundreds_of_wool_threads_at_Chicago%27s_Olsen_Rug_Company%2C_ca._1950_-_NARA_-_535920.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Workman_operating_an_industrial_loom_strung_with_hundreds_of_wool_threads_at_Chicago%27s_Olsen_Rug_Company,_ca._1950_-_NARA_-_535920.jpg",
+    "credit": "Wikimedia Commons",
+    "year": "1950"
+  },
+  {
+    "type": "photo",
+    "title": "U.S. Tank and Air Controller in Korea (1952)",
+    "placement": "\"In Korea, I worked alongside U.S. tank crews during the armistice period...\"",
+    "summary": "U.S. soldiers with an M46 Patton tank in Korea (early 1950s). The Korean War armistice of July 1953 halted fighting, but U.S. troops remained stationed there as a peacekeeping force:contentReference[oaicite:1]{index=1}:contentReference[oaicite:2]{index=2}.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/USAF_forward_air_controller_with_US_Army_M46_tank_during_Korean_War_(1950%E2%80%931953).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:USAF_forward_air_controller_with_US_Army_M46_tank_during_Korean_War_(1950%E2%80%931953).jpg",
+    "credit": "Wikimedia Commons",
+    "year": "1952"
+  },
+  {
+    "type": "photo",
+    "title": "U.S. Soldier with Rickshaw in Occupied Japan (c.1945)",
+    "placement": "\"In Japan I often saw U.S. soldiers mingling with locals in the city streets...\"",
+    "summary": "An American soldier rides a Japanese rickshaw during the U.S. occupation of Japan (circa 1945). This reflects the large American military presence in post-war Japan:contentReference[oaicite:3]{index=3}.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/A_female_US_soldier_on_a_Japanese_rickshaw_in_occupied_Japan.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_female_US_soldier_on_a_Japanese_rickshaw_in_occupied_Japan.png",
+    "credit": "Wikimedia Commons",
+    "year": "1945"
+  },
+  {
+    "type": "context",
+    "title": "Chicago’s Manufacturing Boom (1950s)",
+    "placement": "\"Chicago's factories were humming when I arrived in 1951, offering jobs for newcomers...\"",
+    "summary": "After World War II, Chicago became a manufacturing powerhouse. By 1950 the city produced about one twentieth of the U.S. manufacturing output, and over a third of its employed residents worked in factories:contentReference[oaicite:4]{index=4}. Industries ranged from steel and machinery to candy and printing, providing thousands of jobs.\n\nThis booming industry offered steady employment for many working-class families and immigrants. New Americans often took factory jobs or apprenticed in trades. Technical schools and unions helped workers advance. Many veterans and immigrants used these opportunities to earn stable wages, support families, and pursue the “American Dream.”",
+    "link": "https://www.chicagodesignstories.com/post/chicago-s-postwar-industrial-metamorphosis"
+  },
+  {
+    "type": "context",
+    "title": "Television Industry in the 1950s",
+    "placement": "\"Television sets were the hot new product, and companies like Admiral in Chicago were building them by the thousands.\"",
+    "summary": "Television exploded as a consumer product in the 1950s. In 1950 only about 9% of U.S. households had a TV, but by 1959 that number rose to 85.9%:contentReference[oaicite:5]{index=5}. Chicago-area companies were key players: Admiral (a Chicago firm) began selling TVs in 1948 and by 1949 was producing about 15,000 sets per day – nearly a quarter of the national market:contentReference[oaicite:6]{index=6}. Motorola (then Galvin) opened a TV plant in Franklin Park, IL in 1947 and later created the first all-transistor TV:contentReference[oaicite:7]{index=7}.\n\nThis boom drove huge demand for electronics workers and technicians. Factories and repair shops needed skilled labor. For example, Admiral’s success in TV led it to expand into home appliances. Working as a TV technician or assembly-line worker became a promising, modern career for many in the 1950s.",
+    "link": "https://publish.illinois.edu/ihlc-blog/2018/05/19/motorola/"
+  },
+  {
+    "type": "context",
+    "title": "Technical Education: DeVry Institute",
+    "placement": "\"I studied electronics at night school through the GI Bill, at the DeVry Institute in Chicago.\"",
+    "summary": "After WWII, vocational schools helped veterans and immigrants gain technical skills. The DeVry Institute of Technology in Chicago was a pioneering example. DeVry (originally De Forest Training School) opened its Chicago technical institute in 1953:contentReference[oaicite:8]{index=8}. By 1955, it offered accredited programs in electronics engineering technology, preparing students for careers in radio and TV industries.\n\nSchools like DeVry provided practical, career-oriented training. Many returning servicemen and immigrant workers attended evening classes to learn electronics, radio, and other trades. These programs, often GI Bill-approved:contentReference[oaicite:9]{index=9}, enabled students like Mark to become skilled technicians and move into skilled middle-class jobs.",
+    "link": "https://www.immigrantentrepreneurship.org/entries/herman-adolf-devry/"
+  },
+  {
+    "type": "context",
+    "title": "Korean Armistice and U.S. Forces in Asia",
+    "placement": "\"I was drafted after the Korean armistice and soon sent overseas to Korea and Japan...\"",
+    "summary": "The Korean War ended in a July 27, 1953 armistice, but no peace treaty was signed:contentReference[oaicite:10]{index=10}. This meant the two Koreas remained technically at war. U.S. and UN forces stayed in South Korea to guard the ceasefire line. In 1957 the remaining American troops were officially organized as United States Forces Korea to defend against renewed conflict:contentReference[oaicite:11]{index=11}.\n\nMany U.S. troops (including Mark) were then stationed in Japan. Although Allied occupation of Japan ended in 1952, the U.S. kept military bases there under a security pact:contentReference[oaicite:12]{index=12}. For example, Camp Drake (near Tokyo) housed elements of the U.S. 1st Cavalry Division through the 1950s:contentReference[oaicite:13]{index=13}. Serving in Korea and Japan also allowed foreign-born soldiers to seek expedited U.S. citizenship while in uniform:contentReference[oaicite:14]{index=14}.",
+    "link": "https://www.unc.mil/History/Post-1953-Evolution-of-UNC/"
+  },
+  {
+    "type": "map",
+    "title": "Chicago Work Locations",
+    "placement": "\"In Chicago I worked first at Hines Lumber, then at Glider Trailer Co., and attended classes at DeVry Institute at night.\"",
+    "summary": "Key locations of Mark’s early Chicago years: the Hines Lumber Company and Glider Trailer factory (jobs he held), plus the DeVry Institute (where he studied after work).",
+    "locationIds": ["chicago", "hineslumber", "glidertrailer", "admiral", "devryinstitute"]
+  },
+  {
+    "type": "map",
+    "title": "Army Training Camps",
+    "placement": "\"Basic training was at Fort Leonard Wood in Missouri, followed by specialist training at Fort Knox in Kentucky.\"",
+    "summary": "Locations of U.S. Army training: Fort Leonard Wood, Missouri (basic training) and Fort Knox, Kentucky (armor/tank training).",
+    "locationIds": ["ftleonardwood", "ftknox"]
+  },
+  {
+    "type": "map",
+    "title": "Service in Korea and Japan",
+    "placement": "\"My overseas postings took me to South Korea (near Seoul) and then to Japan, first near Tokyo and later near Nagoya.\"",
+    "summary": "Overseas service locations: a U.S. base in Korea (post-armistice, near Seoul) and two locations in Japan – Camp Drake outside Tokyo, and a U.S. post near Nagoya.",
+    "locationIds": ["korea", "tokyo", "nagoya"]
+  },
+  {
+    "type": "annotation",
+    "term": "Admiral Corporation",
+    "placement": "\"Working as a TV technician at Admiral Corporation taught me about the booming electronics industry...\"",
+    "summary": "Admiral Corporation \u2013 A Chicago-based electronics company founded in 1934:contentReference[oaicite:15]{index=15}. It produced radios and phonographs, and after WWII became a leading U.S. TV and appliance maker:contentReference[oaicite:16]{index=16}:contentReference[oaicite:17]{index=17}.",
+    "link": "https://en.wikipedia.org/wiki/Admiral_(electrical_appliances)"
+  },
+  {
+    "type": "annotation",
+    "term": "DeVry Institute",
+    "placement": "\"Each night I attended classes at the DeVry Institute to study electronics...\"",
+    "summary": "DeVry Institute \u2013 A technical college in Chicago. Originally De Forest Training School, it was renamed DeVry Technical Institute in 1953. By 1955 it offered associate degrees in electronics engineering technology:contentReference[oaicite:18]{index=18}:contentReference[oaicite:19]{index=19}.",
+    "link": "https://en.wikipedia.org/wiki/DeVry_University"
+  },
+  {
+    "type": "annotation",
+    "term": "Television industry (1950s)",
+    "placement": "\"The TV industry really took off during my early years, and fixing TV sets was a steady job.\"",
+    "summary": "Television industry (1950s) \u2013 The U.S. TV market boomed in the 1950s as more households bought sets. In 1950 only about 9% of U.S. homes had a TV, but by 1959 it was 85.9%:contentReference[oaicite:20]{index=20}. Demand for TVs drove major companies (Admiral, Motorola, RCA, etc.) to expand production and innovation in electronics.",
+    "link": "https://www.britannica.com/technology/television-broadcasting"
+  },
+  {
+    "type": "annotation",
+    "term": "Glider Trailer Company",
+    "placement": "\"I spent months working at the Glider Trailer factory, building mobile home trailers...\"",
+    "summary": "Glider Trailer Company \u2013 A manufacturer of travel trailers (mobile homes) based near Chicago. Founded in 1932, it became one of the largest U.S. trailer makers in the 1940s–50s:contentReference[oaicite:21]{index=21}.",
+    "link": "https://en.wikipedia.org/wiki/Travel_trailer"
+  },
+  {
+    "type": "annotation",
+    "term": "Riverview Park",
+    "placement": "\"Riverview Park in Chicago was where I first met Wally, riding the Bobs roller coaster...\"",
+    "summary": "Riverview Park \u2013 A famous Chicago amusement park (1904\u20131967). In the 1950s it featured dozens of rides and attractions, including the wooden roller coaster \u201cThe Bobs\u201d:contentReference[oaicite:22]{index=22}.",
+    "link": "https://en.wikipedia.org/wiki/Riverview_Park_(Chicago)"
+  },
+  {
+    "type": "annotation",
+    "term": "U.S. Army draft",
+    "placement": "\"In November 1953 I received my draft notice for the U.S. Army...\"",
+    "summary": "U.S. Army draft (Selective Service) \u2013 The government system for conscripting men into military service. During the Korean War period, about 1.5 million Americans were drafted into the armed forces:contentReference[oaicite:23]{index=23}.",
+    "link": "https://en.wikipedia.org/wiki/Conscription_in_the_United_States"
+  },
+  {
+    "type": "annotation",
+    "term": "Fort Leonard Wood",
+    "placement": "\"Basic training was at Fort Leonard Wood in Missouri...\"",
+    "summary": "Fort Leonard Wood \u2013 A U.S. Army training base in south-central Missouri, established in 1940. It served as a major training center for infantry and engineers during World War II and the 1950s:contentReference[oaicite:24]{index=24}.",
+    "link": "https://en.wikipedia.org/wiki/Fort_Leonard_Wood"
+  },
+  {
+    "type": "annotation",
+    "term": "Fort Knox",
+    "placement": "\"After basic, I went to Fort Knox, Kentucky, for further training in armor and artillery.\"",
+    "summary": "Fort Knox \u2013 A U.S. Army post in Kentucky (founded 1918). It historically housed the U.S. Army Armor School (for tanks and artillery training) for many decades:contentReference[oaicite:25]{index=25}, and is also known for the United States Bullion Depository (the national gold vault) on its grounds.",
+    "link": "https://en.wikipedia.org/wiki/Fort_Knox"
+  },
+  {
+    "type": "annotation",
+    "term": "Korean War (1950\u20131953)",
+    "placement": "\"I served in Korea during the early days after the armistice ended the fighting...\"",
+    "summary": "Korean War (1950\u20131953) \u2013 A conflict between North Korea (with Chinese and Soviet backing) and South Korea (supported by UN forces led by the U.S.). It ended in an armistice on July 27, 1953 (no formal peace treaty):contentReference[oaicite:26]{index=26}. Over 36,000 Americans died, and about 1.5 million were drafted or volunteered for service during the war.",
+    "link": "https://en.wikipedia.org/wiki/Korean_War"
+  },
+  {
+    "type": "annotation",
+    "term": "Korea (1953\u20131954)",
+    "placement": "\"After the armistice, I was stationed near Seoul helping to enforce the ceasefire...\"",
+    "summary": "Korea (1953\u20131954) \u2013 The period right after the Korean Armistice. U.S. and UN forces remained in South Korea to oversee the ceasefire line. In 1957, the remaining U.S. troops there were organized as United States Forces Korea (USFK):contentReference[oaicite:27]{index=27}.",
+    "link": "https://en.wikipedia.org/wiki/United_States_Forces_Korea"
+  },
+  {
+    "type": "annotation",
+    "term": "Camp Drake",
+    "placement": "\"I was stationed at Camp Drake, just outside Tokyo, during my service in Japan.\"",
+    "summary": "Camp Drake \u2013 A U.S. Army camp near Tokyo (in present-day Asaka, Japan). Known as South Camp Drake from 1945 to 1960, it housed parts of the U.S. 1st Cavalry Division during the occupation and Korean War period:contentReference[oaicite:28]{index=28}.",
+    "link": "https://en.wikipedia.org/wiki/Camp_Asaka"
+  },
+  {
+    "type": "annotation",
+    "term": "Tokyo and Nagoya",
+    "placement": "\"In Japan my tours took me to the Tokyo area and later to an Army base near Nagoya.\"",
+    "summary": "Tokyo and Nagoya \u2013 Major cities in Japan where U.S. forces were stationed in the 1950s. Tokyo (and nearby Camp Drake) hosted many American military units, while Nagoya was an industrial city that also hosted U.S. military personnel as Japan rebuilt its economy:contentReference[oaicite:29]{index=29}.",
+    "link": "https://en.wikipedia.org/wiki/Tokyo"
+  },
+  {
+    "type": "annotation",
+    "term": "U.S. citizenship (naturalization)",
+    "placement": "\"While serving in the Army overseas, I applied for U.S. citizenship and was naturalized in Tokyo.\"",
+    "summary": "U.S. citizenship (naturalization) \u2013 The process by which a foreign-born person becomes an American citizen. U.S. law allows non-citizens serving honorably in the military to expedite citizenship; for example, serving even one day during a wartime period (such as the Korean War) qualifies an immigrant for accelerated naturalization:contentReference[oaicite:30]{index=30}.",
+    "link": "https://citizenpath.com/citizenship-through-military/"
+  },
+  {
+    "type": "annotation",
+    "term": "Military service citizenship",
+    "placement": "\"Because I served during the Korean War, the path to citizenship was faster for me than for others.\"",
+    "summary": "Military service citizenship \u2013 The provision that foreign nationals who serve in the U.S. armed forces can gain citizenship more easily. Under U.S. immigration law (INA \u00a7329), military service during designated hostilities (like the Korean War) qualifies a person for an expedited naturalization process:contentReference[oaicite:31]{index=31}.",
+    "link": "https://citizenpath.com/citizenship-through-military/"
+  },
+  {
+    "type": "annotation",
+    "term": "Post-war Japan (1950s)",
+    "placement": "\"Japan was rebuilding rapidly in the mid-1950s, but U.S. bases like Camp Drake were still there.\"",
+    "summary": "Post-war Japan (1950s) \u2013 After WWII, Japan was occupied by U.S. forces until 1952. With the outbreak of the Korean War, Japan became a major supply base for UN troops, greatly aiding its economic recovery:contentReference[oaicite:32]{index=32}. Even after occupation ended, the U.S. maintained military bases (under a new security treaty):contentReference[oaicite:33]{index=33}. The Japanese economy began to boom during this period, helped by American investment and trade.",
+    "link": "https://history.state.gov/milestones/1945-1952/japan-reconstruction"
+  }
+]

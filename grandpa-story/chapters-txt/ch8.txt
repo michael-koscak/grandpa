@@ -1,0 +1,182 @@
+[
+  {
+    "type": "photo",
+    "title": "St. Stephen\u2019s Church Wedding (Chicago, 1954)",
+    "placement": "\"Wally and I married at St. Stephen\u2019s Church on January 7, 1956, and it felt like the whole church was shining.\"",
+    "summary": "A mid-1950s Catholic wedding in Chicago. St. Stephen\u2019s is where Mark and Wally married, reflecting the era\u2019s immigrant Catholic traditions and the joy of new families starting out in America.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Wedding%2C_1954.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wedding,_1954.jpg",
+    "credit": "Wikimedia Commons",
+    "year": "1954"
+  },
+  {
+    "type": "photo",
+    "title": "Levittown, Pennsylvania (1959) \u2013 Postwar Suburb",
+    "placement": "\"Looking out our front window at rows of similar houses, I felt we\u2019d achieved the American dream of suburban family life.\"",
+    "summary": "An aerial view of Levittown, Pennsylvania (circa 1959):contentReference[oaicite:0]{index=0}. Levittown was one of the first large planned suburbs built after WWII, symbolizing the era\u2019s housing boom. Government loans and mass production made homeownership possible for many veteran and immigrant families:contentReference[oaicite:1]{index=1}. Our new neighborhood in Franklin Park followed the same pattern of orderly streets and modest family homes.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/LevittownPA.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LevittownPA.jpg",
+    "credit": "Wikimedia Commons",
+    "year": "1959"
+  },
+  {
+    "type": "photo",
+    "title": "Admiral Electronics Advertisement (1959)",
+    "placement": "\"My first job was at Admiral Corp, where we built televisions and radios for post-war American families:contentReference[oaicite:2]{index=2}.\"",
+    "summary": "Admiral Corporation was a major Chicago-area electronics company founded by Italian immigrant Ross Siragusa, which began making televisions in 1948:contentReference[oaicite:3]{index=3}. This 1959 sales poster for an Admiral transistor radio reflects the 1950s consumer electronics boom. Mark\u2019s work at Admiral connected him to this era\u2019s radio and TV industry.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Admiral_7-Transistor_Pocket_Radio_Window_Sales_Poster%2C_Distributed_to_Dealers_in_August_1959_%288476734361%29.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Admiral_7-Transistor_Pocket_Radio_Window_Sales_Poster,_Distributed_to_Dealers_in_August_1959_(8476734361).jpg",
+    "credit": "Wikimedia Commons",
+    "year": "1959"
+  },
+  {
+    "type": "photo",
+    "title": "Altgeld Hall, Northern Illinois University (DeKalb, IL)",
+    "placement": "\"I remember bringing Jane to campus: she posed for a picture in front of Altgeld Hall during her freshman year at NIU.\"",
+    "summary": "Altgeld Hall (center) is the oldest building on Northern Illinois University\u2019s campus in DeKalb, Illinois:contentReference[oaicite:4]{index=4}. NIU was founded in 1895 and expanded greatly in the mid-20th century to serve a growing middle-class student population. For many suburban Chicago families like Mark's, the expansion of state universities in the 1960s\u201370s made college education possible for children of immigrants.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Altgeld_Hall-1st_bldg_on_campus_ever.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Altgeld_Hall-1st_bldg_on_campus_ever.JPG",
+    "credit": "Wikimedia Commons",
+    "year": "2005"
+  },
+  {
+    "type": "context",
+    "title": "Postwar American Dream: Suburbs and Homeownership",
+    "placement": "\"After the war, Wally and I finally achieved the American Dream by buying our own home and starting a family.\"",
+    "summary": "In the late 1940s and 1950s, many Americans pursued a new postwar \"American Dream\" of stable jobs, marriage, and homeownership:contentReference[oaicite:5]{index=5}. VA and FHA loans made it possible for returning veterans to buy houses: about 2.4 million veterans purchased homes with government-backed loans in the early 1950s:contentReference[oaicite:6]{index=6}. Economic growth tripled the national output by the mid-1950s, giving \"average Americans\" unprecedented financial security:contentReference[oaicite:7]{index=7}.\nSuburbs grew rapidly to meet demand. Planned communities like Levittown exemplified the era\u2019s housing boom:contentReference[oaicite:8]{index=8}. By 1954, the 30-year mortgage was authorized nationwide, fueling a real-estate expansion. Franklin Park followed this trend: in 1959 Mark and Wally bought a new ranch house there, joining the same suburban expansion sweeping the nation:contentReference[oaicite:9]{index=9}:contentReference[oaicite:10]{index=10}.",
+    "link": "https://en.wikipedia.org/wiki/American_Dream"
+  },
+  {
+    "type": "context",
+    "title": "Chicago’s 1950s-60s Suburbs",
+    "placement": "\"We moved to Franklin Park in 1959, where nearly every house on our street had just been built, and neighbors all around us had young families.\"",
+    "summary": "Chicago’s northwest suburbs expanded dramatically in the 1950s and 1960s. Franklin Park, IL (northwest of Chicago) grew from 8,899 people in 1950 to 18,322 in 1960:contentReference[oaicite:11]{index=11}. Nearby communities (Northlake, Melrose Park, etc.) saw similar growth. Affordable new homes, roads, and jobs attracted city workers seeking suburban life.\nThese suburbs typically featured single-family homes on gridded streets, along with local schools and parks. In Leyden Township (Franklin Park and Northlake), the local high school (East Leyden) educated thousands of students:contentReference[oaicite:12]{index=12}. Mark’s family joined this migration, exchanging city housing for the modern comforts of suburban Franklin Park in 1959.",
+    "link": "https://en.wikipedia.org/wiki/Franklin_Park,_Illinois"
+  },
+  {
+    "type": "context",
+    "title": "Federal Civil Service Careers",
+    "placement": "\"Once I became a citizen, I joined the FAA in 1973, a stable career that offered a pension and benefits \u2013 the backbone of the middle-class security Wally and I dreamed of.\"",
+    "summary": "After WWII, federal civil service jobs became a pathway to middle-class stability. Government employment grew to 3.5 million by 1945 (during the war) and stayed around 2.5 million in the 1950s:contentReference[oaicite:13]{index=13}. By 1955, about 90% of federal workers were in a competitive, merit-based civil service system, offering job security. These jobs provided regular pay, pensions, and benefits.\nFor many immigrant and veteran families, civil service work was attractive. The federal bureaucracy was seen as stable and prestigious:contentReference[oaicite:14]{index=14}. Mark’s long career with the FAA (the U.S. agency regulating air travel:contentReference[oaicite:15]{index=15}) exemplifies this: it provided steady income and benefits that supported his family through the Cold War era.",
+    "link": "https://en.wikipedia.org/wiki/United_States_federal_civil_service"
+  },
+  {
+    "type": "context",
+    "title": "Catholic Parish Life in the Suburbs",
+    "placement": "\"Every Sunday we attended Mass at St. Stephen\u2019s, and the parish community was like a second family to us.\"",
+    "summary": "For mid-20th-century immigrant families, the Catholic parish was the social and spiritual center of community life. After WWII, many urban ethnic neighborhoods \"broke down\" as Catholics moved into the suburbs:contentReference[oaicite:16]{index=16}. Parishes followed, with dioceses building new churches and schools for the growing suburban population.\nParish life included weekly Mass, sacraments, and social events. Children typically attended CCD religious-education classes (weekly after school) to learn their faith:contentReference[oaicite:17]{index=17}. In Mark’s family, St. Stephen’s in Chicago provided community and continuity of faith, tying them to cultural traditions while they assimilated into American life.",
+    "link": "https://en.wikipedia.org/wiki/Catholic_parish"
+  },
+  {
+    "type": "map",
+    "title": "Chicago Area: Home and Work Locations",
+    "placement": "\"I loved that work and home were both nearby: the ordnance plant in Forest Park, the Army Ammunition Agency in Joliet, and the FAA office near O\u2019Hare were all a short drive from our Franklin Park home.\"",
+    "summary": "Mark\u2019s suburban home was in Franklin Park, IL (just northwest of Chicago). Nearby, he worked at the Naval Ordnance Station in Forest Park (west of Chicago) during the 1960s, and later at the Army Ammunition Procurement Agency in Joliet (southwest of Chicago). In 1973 he joined the FAA near O\u2019Hare Airport. This map highlights those locations in the greater Chicago area.",
+    "locationIds": ["franklinpark", "forestpark", "joliet", "ohare"]
+  },
+  {
+    "type": "map",
+    "title": "Family\u2019s Geographic Spread",
+    "placement": "\"Over the years, our children settled in many places \u2013 Carol Stream, Elgin, St. Louis, Rockford, Nashville \u2013 but always returned to Franklin Park to visit the family home.\"",
+    "summary": "This map traces the locations where Mark\u2019s descendants lived. Carol Stream and Elgin are suburbs near Chicago where his children grew up or married. Later generations spread to other cities: Rockford and St. Louis (Midwest), and Nashville, Tennessee. The map underscores how Mark\u2019s roots in Franklin Park (center) branched out geographically while remaining connected to Illinois.",
+    "locationIds": ["chicago", "carolstream", "elgin", "rockford", "stlouis", "nashville"]
+  },
+  {
+    "type": "annotation",
+    "term": "St. Stephen\u2019s Church (Chicago)",
+    "placement": "\"Wally and I married at St. Stephen\u2019s Church on January 7, 1956, and it felt like the whole church was shining.\"",
+    "summary": "St. Stephen\u2019s Church is a Roman Catholic parish in Chicago. It was where Mark and Wally were married in 1956 and served as the center of their community life. Neighborhood parishes like St. Stephen\u2019s played key roles for immigrant families, hosting weddings, baptisms, and community events.",
+    "link": "https://en.wikipedia.org/wiki/Catholic_parish"
+  },
+  {
+    "type": "annotation",
+    "term": "Franklin Park, Illinois",
+    "placement": "\"I remember our first home in Franklin Park, a quiet suburb just outside Chicago where we had a small yard and friendly neighbors.\"",
+    "summary": "Franklin Park is a village in Cook County, Illinois, located northwest of Chicago. Its population surged in the 1950s as farmland turned into suburban housing. Between 1950 and 1960, Franklin Park\u2019s population jumped from 8,899 to 18,322:contentReference[oaicite:18]{index=18}. Mark and Wally bought their first home there in 1959, joining many postwar families building lives in the suburbs.",
+    "link": "https://en.wikipedia.org/wiki/Franklin_Park,_Illinois"
+  },
+  {
+    "type": "annotation",
+    "term": "Motorola",
+    "placement": "\"During my internship at Motorola, I helped test car radios. Motorola was expanding rapidly in the 1950s and 1960s.\"",
+    "summary": "Motorola (originally Galvin Manufacturing) was a major electronics company based in the Chicago area. It opened a large television assembly plant in Franklin Park in 1947 and became a leading maker of radios and TVs:contentReference[oaicite:19]{index=19}. Motorola also developed air-traffic-control technology. Working at Motorola connected Mark to the region\u2019s technological industry.",
+    "link": "https://en.wikipedia.org/wiki/Motorola"
+  },
+  {
+    "type": "annotation",
+    "term": "Admiral Corporation",
+    "placement": "\"My first civilian engineering job was at Admiral, where we built television sets in a plant on West Cortland Street in Chicago.\"",
+    "summary": "Admiral Corporation was a major Chicago-area appliance and electronics company. Founded in 1934 by Ross Siragusa, Admiral produced consumer goods like televisions and radios:contentReference[oaicite:20]{index=20}. By the early 1960s it employed thousands in Illinois, making TVs and refrigerators:contentReference[oaicite:21]{index=21}. Mark\u2019s work at Admiral placed him in the center of the postwar electronics boom.",
+    "link": "https://en.wikipedia.org/wiki/Admiral_(electrical_appliances)"
+  },
+  {
+    "type": "annotation",
+    "term": "Naval Ordnance Station, Forest Park",
+    "placement": "\"I worked at the Naval Ordnance Plant in Forest Park from 1962 to 1971, helping build torpedoes for the Navy.\"",
+    "summary": "The Naval Ordnance Station in Forest Park, Illinois was a U.S. Navy factory that built torpedoes during and after WWII:contentReference[oaicite:22]{index=22}. Founded in 1942, it employed up to 6,500 workers and produced 19,000 torpedoes before shifting to research and closing in 1971:contentReference[oaicite:23]{index=23}. Mark\u2019s career began here, reflecting the wartime industrial heritage of the Chicago area.",
+    "link": "https://en.wikipedia.org/wiki/Naval_Ordnance_Station_Forest_Park"
+  },
+  {
+    "type": "annotation",
+    "term": "Federal Aviation Administration (FAA)",
+    "placement": "\"I joined the FAA in 1973, working as a management analyst. This federal job gave me a pension and benefits for our family\u2019s future.\"",
+    "summary": "The FAA is the U.S. federal agency that oversees civil aviation and air traffic control:contentReference[oaicite:24]{index=24}. It is part of the Department of Transportation. The FAA has been a major employer at hubs like Chicago\u2019s O\u2019Hare. Mark\u2019s long career at the FAA (1973\u20131995) provided stability and retirement benefits, illustrating the opportunities of government employment.",
+    "link": "https://en.wikipedia.org/wiki/Federal_Aviation_Administration"
+  },
+  {
+    "type": "annotation",
+    "term": "Northern Illinois University (NIU)",
+    "placement": "\"Jane attended NIU in DeKalb, and we often visited campus. She was proud to study in Altgeld Hall on the main quad.\"",
+    "summary": "Northern Illinois University is a public university in DeKalb, Illinois. It was founded in 1895 as a teachers\u2019 college and grew into a comprehensive university:contentReference[oaicite:25]{index=25}. NIU\u2019s expansion in the mid-20th century reflects the boom in higher education as more Americans (especially from immigrant backgrounds) accessed college degrees.",
+    "link": "https://en.wikipedia.org/wiki/Northern_Illinois_University"
+  },
+  {
+    "type": "annotation",
+    "term": "East Leyden High School",
+    "placement": "\"All three of our children went to East Leyden High School in Franklin Park for grades 9\u201312.\"",
+    "summary": "East Leyden High School is the public high school in Franklin Park, Illinois:contentReference[oaicite:26]{index=26}. It serves Leyden Township communities (Franklin Park, River Grove, etc.) and opened in 1911. The fact that Mark\u2019s children attended East Leyden shows the family\u2019s integration into the local suburb community.",
+    "link": "https://en.wikipedia.org/wiki/East_Leyden_High_School"
+  },
+  {
+    "type": "annotation",
+    "term": "Catholic parish life",
+    "placement": "\"Every Sunday we attended Mass at St. Stephen\u2019s, and the parish community was like a second family to us.\"",
+    "summary": "Catholic parish life refers to the communal practices around a parish church, including weekly Mass, sacraments, and parish events. For immigrant families, the parish provided fellowship, identity, and continuity of faith. The parish served as a support network, reinforcing family and community ties.",
+    "link": "https://en.wikipedia.org/wiki/Catholic_parish"
+  },
+  {
+    "type": "annotation",
+    "term": "CCD classes (Confraternity of Christian Doctrine)",
+    "placement": "\"Both Mark and Jane went to CCD classes every week to learn their Catholic faith in preparation for Communion.\"",
+    "summary": "CCD stands for Confraternity of Christian Doctrine, the Catholic Church\u2019s religious education program for children:contentReference[oaicite:27]{index=27}. CCD classes, usually held in parish schools or halls, teach the fundamentals of the faith and prepare children for sacraments like First Communion and Confirmation.",
+    "link": "https://en.wikipedia.org/wiki/Confraternity_of_Christian_Doctrine"
+  },
+  {
+    "type": "annotation",
+    "term": "Federal civil service",
+    "placement": "\"He\u2019d obtained citizenship in Tokyo specifically to qualify for civil service jobs back home in America.\"",
+    "summary": "The U.S. federal civil service is the permanent professional workforce of the federal government. It expanded significantly during WWII and remained large in the postwar era:contentReference[oaicite:28]{index=28}. Civil service positions (like Mark\u2019s FAA job) were merit-based and offered steady salaries, pensions, and job security. These jobs helped build a secure middle-class career path for immigrants and veterans:contentReference[oaicite:29]{index=29}.",
+    "link": "https://en.wikipedia.org/wiki/United_States_federal_civil_service"
+  },
+  {
+    "type": "annotation",
+    "term": "Post-war suburbs",
+    "placement": "\"Our new neighborhood had all the hallmarks of the post-war suburbs: tract homes, manicured lawns, and young families on every block.\"",
+    "summary": "Post-war suburbs are residential communities built in the U.S. after WWII, characterized by single-family homes on similar lots. Federal VA and FHA loan programs and the G.I. Bill fueled a housing boom in the 1950s:contentReference[oaicite:30]{index=30}:contentReference[oaicite:31]{index=31}. These suburbs embodied the era\u2019s American Dream of homeownership for veterans and growing families.",
+    "link": "https://en.wikipedia.org/wiki/Suburbanization"
+  },
+  {
+    "type": "annotation",
+    "term": "American middle class",
+    "placement": "\"By working government jobs and owning our home, we had become part of the American middle class of the 1960s.\"",
+    "summary": "In mid-20th-century America, the middle class consisted of families with stable incomes, homeownership, and some college education. Widespread economic growth meant \"average Americans\" enjoyed unprecedented prosperity:contentReference[oaicite:32]{index=32}. Mark\u2019s family, with secure federal employment and a suburban home, exemplified the expanding postwar middle class.",
+    "link": "https://en.wikipedia.org/wiki/Middle_class"
+  },
+  {
+    "type": "annotation",
+    "term": "1950s-60s Chicago suburbs",
+    "placement": "\"Chicago\u2019s suburbs were booming during our marriage. Franklin Park and its neighbors were filled with new families building the American Dream.\"",
+    "summary": "The Chicago suburbs grew rapidly in the 1950s and 1960s. Infrastructure like highways and factories spurred development in Cook County. Franklin Park\u2019s population doubled in the 1950s:contentReference[oaicite:33]{index=33}. These suburbs offered affordable housing and schools to city workers, reflecting the nationwide trend of suburbanization.",
+    "link": "https://en.wikipedia.org/wiki/Chicago"
+  }
+]

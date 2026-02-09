@@ -1,0 +1,168 @@
+[
+  {
+    "type": "photo",
+    "title": "USS General Muir Troopship",
+    "placement": "\"...loaded on an American Navy troop carrier, General Muir, and arrived in New York...\"",
+    "summary": "The USS *General C. H. Muir*, a former U.S. Navy troop transport ship that carried European refugees to America in the early 1950s. (Photo circa 1953)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/USS_General_C._H._Muir_(AP-142).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:USS_General_C._H._Muir_(AP-142).jpg",
+    "credit": "Wikimedia Commons",
+    "year": "1953"
+  },
+  {
+    "type": "photo",
+    "title": "New York Harbor Skyline, 1951",
+    "placement": "\"We arrived in New York harbour and were awed by the size of the city, the tall buildings...\"",
+    "summary": "Lower Manhattan’s skyline as seen from a ship in New York Harbor in 1951. For immigrants arriving by sea, the skyscrapers and bustling harbor of New York were an awe-inspiring first sight of America.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Lower_Manhattan_viewes_from_USS_Wisconsin_(BB-64)_1951.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lower_Manhattan_viewes_from_USS_Wisconsin_(BB-64)_1951.jpg",
+    "credit": "Wikimedia Commons",
+    "year": "1951"
+  },
+  {
+    "type": "photo",
+    "title": "Chicago Neighborhood Street, 1951",
+    "placement": "\"...Slovenian community in Chicago, around Cermack Road and Damen Avenue...\"",
+    "summary": "A 1951 view of a street in Chicago’s Near West Side (Pilsen) neighborhood, which was home to many Eastern European immigrant families. Ethnic enclaves like this provided new arrivals with community support, familiar languages, and help finding jobs and housing.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/1951+A016008_(3553360622).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1951%2BA016008_(3553360622).jpg",
+    "credit": "Wikimedia Commons",
+    "year": "1951"
+  },
+  {
+    "type": "photo",
+    "title": "Port of Embarkation at Bremerhaven",
+    "placement": "\"...on our way to Bremerhaven, Germany, our port of embarkation.\"",
+    "summary": "The SS *America* ocean liner docked at Bremerhaven in 1958. In the postwar era, Bremerhaven’s port saw countless European refugees and emigrants board ships like this bound for new lives overseas.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/1958_America_in_Bremerhaven.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1958_America_in_Bremerhaven.jpg",
+    "credit": "Wikimedia Commons",
+    "year": "1958"
+  },
+  {
+    "type": "context",
+    "title": "Voyage on the USS General Muir",
+    "placement": "\"With several hundred other people, we were loaded on an American Navy troop carrier, General Muir...\"",
+    "summary": "The *General C. H. Muir* was originally built as a troop transport in World War II, but after the war it was used to carry displaced persons from Europe to new homes abroad:contentReference[oaicite:0]{index=0}. It could accommodate over a thousand passengers on a single voyage. A typical crossing of the Atlantic took about a week, and on each eastward trip the ship brought hundreds or even thousands of refugees to the United States under the International Refugee Organization’s resettlement program:contentReference[oaicite:1]{index=1}. Conditions were often crowded, and rough seas could make many passengers seasick, but morale remained high—buoyed by hope and by support from crew and volunteers (who provided translations and guidance to help the immigrants on their journey).",
+    "link": "https://en.wikipedia.org/wiki/USS_General_C._H._Muir"
+  },
+  {
+    "type": "context",
+    "title": "Bremerhaven – Postwar Port of Embarkation",
+    "placement": "\"...on our way to Bremerhaven, Germany, our port of embarkation.\"",
+    "summary": "After World War II, Bremerhaven (in the American zone of occupied Germany) became one of the most important points of departure for emigration:contentReference[oaicite:2]{index=2}. Displaced persons bound for countries like the United States would spend their final weeks in nearby “staging” camps around Bremen (such as Camp Grohn), where they completed paperwork and took basic language lessons before embarkation:contentReference[oaicite:3]{index=3}. From 1946 to 1952, the International Refugee Organization processed over 500,000 emigration cases through Bremerhaven’s port:contentReference[oaicite:4]{index=4}. Huge U.S. transport ships and repurposed liners departed regularly from Bremerhaven’s harbor, each carrying hundreds of hopeful refugees across the Atlantic to North America and elsewhere.",
+    "link": "https://arolsen-archives.org/en/news/emigration-of-displaced-persons/"
+  },
+  {
+    "type": "context",
+    "title": "A Warm Welcome in New York",
+    "placement": "\"The Salvation Army was there to treat us with coffee and doughnuts. The Catholic Relief people gave us twenty dollars...\"",
+    "summary": "Arriving in New York Harbor was a thrilling yet anxious moment for many immigrants. Charitable groups were on hand to offer comfort and practical help right away. The Salvation Army, for example, greeted newcomers with a blanket, hot coffee and doughnuts – literally giving many immigrants their first taste of America:contentReference[oaicite:5]{index=5}. Catholic organizations also took an active role in resettlement. Catholic Relief Services (known in 1951 as the National Catholic Welfare Conference) stationed workers at the docks to assist refugee families, often providing a small cash stipend and train tickets to their final destinations:contentReference[oaicite:6]{index=6}:contentReference[oaicite:7]{index=7}. These gestures, though simple, eased the transition by ensuring immigrants had food, a little money in pocket, and guidance for the next leg of their journey.",
+    "link": "https://www.pier21.ca/research/immigration-history/catholic-relief-services"
+  },
+  {
+    "type": "context",
+    "title": "Chicago’s Slovenian Community",
+    "placement": "\"...Slovenian community in Chicago, around Cermack Road and Damen Avenue...\"",
+    "summary": "Chicago in 1951 was a booming industrial city that attracted immigrants from all over Europe with its plentiful factory, steel mill, and stockyard jobs:contentReference[oaicite:8]{index=8}. Immigrant communities formed tight-knit enclaves across the city, providing newcomers with familiar languages, churches, and mutual aid. Slovenians, for example, had established their own community institutions in Chicago decades earlier. By the late 1800s, Slovenian families formed parishes (like St. Stephen’s on 22nd Place in the Near West Side) to serve their spiritual and cultural needs:contentReference[oaicite:9]{index=9}. They also organized fraternal benefit societies such as the Slovenian Catholic Union (KSKJ) to offer life insurance, financial help, and social support to Slovenian immigrants:contentReference[oaicite:10]{index=10}. In areas around Cermak Road (22nd Street) and Damen Avenue – historically a Slovene and Czech neighborhood – new arrivals could turn to fellow countrymen for housing, employment leads, and community. The Slovenian-American networks in Chicago often made sure that arriving families “who didn’t know a soul” would quickly connect with countrymen ready to help them get on their feet.",
+    "link": "https://archives.archchicago.org/photo-exhibit/collection-spotlight-slovenian-parishes"
+  },
+  {
+    "type": "map",
+    "title": "Atlantic Crossing Route",
+    "placement": "\"...arrived in New York about seven or eight days later.\"",
+    "summary": "Map of the journey by sea from Bremerhaven, Germany across the Atlantic Ocean to New York Harbor in the United States. This was the route taken by postwar refugee ships like the General Muir.",
+    "locationIds": ["bremerhaven", "newyork"]
+  },
+  {
+    "type": "map",
+    "title": "From New York to Chicago",
+    "placement": "\"...put us on a train to Chicago.\"",
+    "summary": "Map of the overland route from New York to Chicago. After arriving in New York, the family traveled west by train to reach Chicago, Illinois – the city where they would begin their new life in America.",
+    "locationIds": ["newyork", "chicago"]
+  },
+  {
+    "type": "annotation",
+    "term": "Bremerhaven",
+    "placement": "\"...Bremerhaven, Germany...\"",
+    "summary": "A port city in northern Germany, located on the North Sea. After WWII, Bremerhaven served as a major **embarkation port** from which many European refugees and emigrants departed by ship:contentReference[oaicite:11]{index=11}.",
+    "link": "https://arolsen-archives.org/en/news/emigration-of-displaced-persons/"
+  },
+  {
+    "type": "annotation",
+    "term": "port of embarkation",
+    "placement": "\"...our port of embarkation.\"",
+    "summary": "The place where people board a ship (or plane) to start a journey. In this context, **port of embarkation** refers to the harbor where the family embarked on their voyage (Bremerhaven):contentReference[oaicite:12]{index=12}.",
+    "link": "https://www.globalnegotiator.com/definition/port-of-embarkation-poe.html"
+  },
+  {
+    "type": "annotation",
+    "term": "USS General Muir",
+    "placement": "\"...General Muir...\"",
+    "summary": "A U.S. Navy transport ship (officially *USS General C. H. Muir*, AP-142) used in World War II and later to carry displaced persons. In 1951, it was operating as a refugee transport, bringing European families to America:contentReference[oaicite:13]{index=13}.",
+    "link": "https://en.wikipedia.org/wiki/USS_General_C._H._Muir"
+  },
+  {
+    "type": "annotation",
+    "term": "Navy troop carrier",
+    "placement": "\"...American Navy troop carrier...\"",
+    "summary": "A **troop transport ship** operated by the navy, designed to carry soldiers (troops) in large numbers. These ships were later repurposed to carry refugees and immigrants after WWII:contentReference[oaicite:14]{index=14}:contentReference[oaicite:15]{index=15}.",
+    "link": "https://en.wikipedia.org/wiki/Transport_ship"
+  },
+  {
+    "type": "annotation",
+    "term": "New York Harbor",
+    "placement": "\"We arrived in New York harbour...\"",
+    "summary": "The port of New York City, at the mouth of the Hudson River. New York Harbor was historically the busiest U.S. port of entry for immigrants, home to Ellis Island and the iconic skyline of Manhattan:contentReference[oaicite:16]{index=16}.",
+    "link": "https://en.wikipedia.org/wiki/Port_of_New_York_and_New_Jersey"
+  },
+  {
+    "type": "annotation",
+    "term": "Salvation Army",
+    "placement": "\"The Salvation Army was there...\"",
+    "summary": "A Christian charitable organization known for its social welfare work. The Salvation Army often aided immigrants and the poor – for example, greeting new arrivals with coffee and doughnuts as a warm welcome:contentReference[oaicite:17]{index=17}.",
+    "link": "https://en.wikipedia.org/wiki/The_Salvation_Army"
+  },
+  {
+    "type": "annotation",
+    "term": "Catholic Relief Services",
+    "placement": "\"The Catholic Relief people gave us twenty dollars...\"",
+    "summary": "The international humanitarian agency of the U.S. Catholic Church (called War Relief Services in the 1940s–50s). After WWII, it helped refugees with basic needs and resettlement, providing things like travel funds, food, and assistance finding housing:contentReference[oaicite:18]{index=18}.",
+    "link": "https://en.wikipedia.org/wiki/Catholic_Relief_Services"
+  },
+  {
+    "type": "annotation",
+    "term": "Chicago 1951",
+    "placement": "\"...on a train to Chicago.\"",
+    "summary": "In 1951, Chicago was the second-largest city in the U.S. and a major industrial center. It was experiencing a postwar economic boom – factories and stockyards were thriving – and it had a very diverse population including many immigrant communities:contentReference[oaicite:19]{index=19}.",
+    "link": "https://www.encyclopedia.chicagohistory.org/pages/1050.html"
+  },
+  {
+    "type": "annotation",
+    "term": "Cermak Road, Damen Avenue",
+    "placement": "\"...Cermack Road and Damen Avenue...\"",
+    "summary": "A crossroads in the Pilsen area of Chicago’s West Side (22nd Street and Damen). This neighborhood was historically populated by Czech and Slovenian immigrants, which is why members of that community were present there to welcome the arriving family:contentReference[oaicite:20]{index=20}.",
+    "link": "http://www.encyclopedia.chicagohistory.org/pages/1153.html"
+  },
+  {
+    "type": "annotation",
+    "term": "Slovenian community (Chicago)",
+    "placement": "\"...Slovenian community in Chicago...\"",
+    "summary": "The network of Slovene immigrants in Chicago and their institutions. Slovenians formed their own churches (such as St. Stephen’s parish on the West Side, founded 1897):contentReference[oaicite:21]{index=21} and clubs to support each other. They often provided newly arrived Slovenians with lodging, job leads, and community connections in the city.",
+    "link": "https://archives.archchicago.org/photo-exhibit/collection-spotlight-slovenian-parishes"
+  },
+  {
+    "type": "annotation",
+    "term": "immigrant resettlement",
+    "placement": "\"...provided for a temporary stay with different people--all complete strangers. After a few days, they arranged for us to rent a small apartment.\"",
+    "summary": "The process of relocating refugees or immigrants into a new community and helping them establish a life there. Post-WWII resettlement efforts involved finding housing, employment, and community support for displaced families (often coordinated by agencies like the IRO and local ethnic organizations):contentReference[oaicite:22]{index=22}.",
+    "link": "https://ehne.fr/en/article/european-migrations/xixe-xxe-century/refugee-resettlement-united-states-after-world-war-ii"
+  },
+  {
+    "type": "annotation",
+    "term": "$20 in 1951",
+    "placement": "\"...twenty dollars...\"",
+    "summary": "Twenty U.S. dollars in 1951 was a considerable sum for a newly arrived family. Adjusted for inflation, $20 in 1951 is roughly equivalent to about $250 in today’s money:contentReference[oaicite:23]{index=23}. It was enough in 1951 to cover a few days’ living expenses or buy basic necessities for a family starting out.",
+    "link": "https://www.dollartimes.com/inflation/inflation.php?amount=20&year=1951"
+  }
+]

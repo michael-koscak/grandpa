@@ -1,0 +1,165 @@
+[
+  {
+    "type": "photo",
+    "title": "Mother's Day Celebration in a DP Camp",
+    "placement": "\"...that helped our family to get along.\"",
+    "summary": "Displaced persons celebrate Mother's Day in an Austrian UNRRA camp in May 1946:contentReference[oaicite:0]{index=0}. Despite the difficult conditions, DP camps organized community events and celebrations to maintain morale and a sense of normal life for the refugees.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Fotothek_df_pk_0000195_001.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fotothek_df_pk_0000195_001.jpg",
+    "credit": "Wikimedia Commons",
+    "year": "1946"
+  },
+  {
+    "type": "photo",
+    "title": "British Commander Visits DP Camp",
+    "placement": "\"Back in the D.P. camp,\"",
+    "summary": "General Sir Richard McCreery, Commander-in-Chief of British Forces in Austria, visits the Kellerberg displaced persons camp in Carinthia in March 1946. The British military administered DP camps in their occupation zone of Austria after World War II, providing security and support:contentReference[oaicite:1]{index=1}:contentReference[oaicite:2]{index=2}.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/BRITISH_FORCES_OF_OCCUPATION_IN_AUSTRIA,_1945_-_1947_VIE1314.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BRITISH_FORCES_OF_OCCUPATION_IN_AUSTRIA,_1945_-_1947_VIE1314.jpg",
+    "credit": "Wikimedia Commons",
+    "year": "1946"
+  },
+  {
+    "type": "photo",
+    "title": "Bunk Accommodation on a Refugee Ship",
+    "placement": "\"...immigration to the USA, which was our first choice.\"",
+    "summary": "Sleeping berths prepared on a U.S. Navy vessel under International Refugee Organization (IRO) charter in 1950. Thousands of displaced persons traveled by sea to new homes, often in converted troopships with tight quarters:contentReference[oaicite:3]{index=3}:contentReference[oaicite:4]{index=4}. These voyages carried refugees from European ports (like Bremerhaven in Germany) to destinations such as New York, marking the final step of their resettlement journey.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Sleeping_accommodation_on_an_unknown_US_Navy_ship_under_Interational_Refugee_Organization_charter_(8403895754).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sleeping_accommodation_on_an_unknown_US_Navy_ship_under_Interational_Refugee_Organization_charter_(8403895754).jpg",
+    "credit": "Wikimedia Commons",
+    "year": "1950"
+  },
+  {
+    "type": "context",
+    "title": "Displaced Persons Camps in Austria",
+    "placement": "\"camp's food supply warehouse\"",
+    "summary": "At the end of World War II, Austria was inundated with refugees. In 1945, about **1.4 million** displaced persons (DPs) were in Austria – roughly one-fifth of the country’s prewar population:contentReference[oaicite:5]{index=5}. Allied authorities and the **United Nations Relief and Rehabilitation Administration (UNRRA)** set up DP camps to shelter these people who could not return home:contentReference[oaicite:6]{index=6}. The camps ranged from repurposed barracks to tent cities, providing basic housing, food, and medical care.<br><br>Austria was divided into occupation zones, and the British zone (Carinthia, Styria, and East Tyrol) contained many camps:contentReference[oaicite:7]{index=7}. *Kellerberg* was one such camp in Carinthia, near Villach. It, along with the nearby Feffernitz camp, housed up to **10,000** refugees in the late 1940s:contentReference[oaicite:8]{index=8}. Initially, the goal was to repatriate DPs to their countries, but about **“the last million”** refused repatriation due to fear of persecution under new regimes:contentReference[oaicite:9]{index=9}. These DPs remained in camps for years, awaiting opportunities to emigrate. By 1952, most DP camps in Austria and Germany had closed as people resettled abroad, although a few (like Wels in Upper Austria) stayed open until the late 1950s:contentReference[oaicite:10]{index=10}:contentReference[oaicite:11]{index=11}.",
+    "link": "https://klagenfurtmigrationstudies.home.blog/the-unrra-in-austria-insights-and-conclusions/"
+  },
+  {
+    "type": "context",
+    "title": "Life in a Displaced Persons Camp",
+    "placement": "\"For my work, I earned extra food rations...\"",
+    "summary": "Daily life in DP camps revolved around *resourcefulness and routine*. Food and supplies were limited and distributed in rations. Adults typically received basic ration cards for about 2,000 calories or less per day in the immediate postwar period:contentReference[oaicite:12]{index=12}. To improve their lot, many DPs took on camp jobs. **UNRRA officials tied refugees’ rations and privileges to their willingness to work** and help run the camp:contentReference[oaicite:13]{index=13}. Common jobs included maintenance, cleaning, kitchen work, or as in Mark’s case, working in warehouses. Such work often earned **extra food rations** or other small benefits, which could make a crucial difference for a family.<br><br>Despite hardships, DP camps fostered a sense of community. Residents organized schools for children, churches or synagogues for worship, sports teams, newspapers, and cultural events. In some camps, **open-air classrooms** were set up so children could continue schooling:contentReference[oaicite:14]{index=14}, and choirs or theater groups provided entertainment. Conditions were spartan – many camps were overcrowded and initially lacked heating or proper sanitation – but over time, international aid and self-governance by the DPs improved living standards. Still, life in a DP camp was marked by uncertainty. People passed the time learning new skills and languages (English classes were popular for those hoping to go to America:contentReference[oaicite:15]{index=15}) and anxiously waiting for news of visas or sponsorships that would allow them to finally leave camp and start new lives.",
+    "link": "https://encyclopedia.ushmm.org/content/en/film/displaced-persons-camp-in-austria"
+  },
+  {
+    "type": "context",
+    "title": "British Occupation and Velden Resort",
+    "placement": "\"...officers' resort hotel on the Lake Worthersee by Velden.\"",
+    "summary": "After WWII, Austria was divided into zones occupied by the Allied powers. **Carinthia and Styria in the south formed the British occupation zone**:contentReference[oaicite:16]{index=16} from 1945 to 1955. British forces were responsible for governing this region, which included overseeing DP camps and maintaining order. They also established rest and recreation facilities for their troops. The **Lake Wörthersee** area, with its beautiful alpine lake, became a hub for British recreation. In the summer of 1945, British 8th Army units converted grand hotels in **Velden am Wörthersee** – a prewar resort town – into an “*officers’ leave camp*”:contentReference[oaicite:17]{index=17}. One famous hotel, the Schloss Velden, was requisitioned and turned into a British officers’ club.<br><br>**Velden’s resort** offered war-weary British personnel a holiday-like environment: “the food was out of this world…it was a really first class holiday in beautiful surroundings,” recalled one British veteran of his leave in Velden in 1945:contentReference[oaicite:18]{index=18}:contentReference[oaicite:19]{index=19}. There were boat excursions on the lake (British soldiers enjoyed pleasure cruises with music and lights) and even cultural performances – the veteran described attending a dazzling production of an operetta (*Die Fledermaus*) in nearby Klagenfurt:contentReference[oaicite:20]{index=20}. For locals and DPs like Mark, the British presence created employment opportunities. The occupying forces needed staff to run the hotels, maintain facilities, and provide services. Mark’s job as a **handyman at the officers’ hotel** in Velden was a direct result of this British occupation infrastructure. It provided him a small salary (in scarce Allied currency or occupation scrip) and valuable work experience at a time when most civilians in Austria struggled to find paying jobs.",
+    "link": "http://ww2talk.com/index.php?threads/things-to-see-in-austria.11238/#post-122401"
+  },
+  {
+    "type": "context",
+    "title": "From DP Camp to a New Home: The Path to America",
+    "placement": "\"...accepted for immigration to the USA...\"",
+    "summary": "For displaced families like Mark’s, **emigrating to the United States** was the ultimate goal. This process was governed by the **U.S. Displaced Persons Act of 1948**, the first major U.S. refugee law. It authorized visas for 200,000 European DPs over two years, favoring those in camps by the end of 1945:contentReference[oaicite:21]{index=21}:contentReference[oaicite:22]{index=22}. President Truman criticized the act’s initial biases (it excluded many Jewish and Catholic refugees):contentReference[oaicite:23]{index=23}, and in 1950 Congress amended it to admit another 200,000 DPs and remove some restrictions:contentReference[oaicite:24]{index=24}. In total, over **400,000** displaced persons were able to immigrate to the U.S. under these programs by 1952.<br><br>Securing a U.S. visa typically required a **sponsor** who would guarantee housing and employment for the refugee family, ensuring they wouldn’t become a “public charge.” Many American religious and charitable organizations stepped up to fulfill this role. The **Catholic Relief Organization** mentioned in the memoir refers to **Catholic Relief Services (CRS)** – the U.S. Catholic agency that, along with the National Catholic Welfare Conference, helped resettle refugees. Catholic agencies worked with counterparts in Europe to locate American parishes or families willing to sponsor DP families:contentReference[oaicite:25]{index=25}. They provided affidavits of support, arranged ocean passage, and met refugees at the port of entry. In Mark’s case, *Catholic Relief* sponsorship meant a Catholic parish or family in the U.S. had agreed to receive his family, provide initial housing, and help find work:contentReference[oaicite:26]{index=26}. This was crucial for a single mother with three children, as such cases were often harder to place. Thanks to his mother’s persistence and the backing of CRS, Mark’s family left Austria in 1951 – joining the wave of DP refugees starting new lives in America. By 1951, the majority of the “last million” DPs had been resettled to countries like the U.S., Canada, Australia, and Israel:contentReference[oaicite:27]{index=27}:contentReference[oaicite:28]{index=28}, bringing an end to their years as refugees.",
+    "link": "https://www.trumanlibraryinstitute.org/the-displaced-persons-act-of-1948/"
+  },
+  {
+    "type": "map",
+    "title": "Carinthia: DP Camp and Work Sites",
+    "placement": "\"...officers' resort hotel on the Lake Worthersee by Velden.\"",
+    "summary": "This map shows southern Carinthia in Austria, highlighting the Kellerberg area (site of the D.P. camp where Mark’s family lived) and the town of Velden on Lake Wörthersee (where Mark worked at the British officers’ resort). Kellerberg lies northwest of the city of Villach, and Velden is a short distance east of there on the shore of Lake Wörthersee. The proximity illustrates how Mark commuted from the D.P. camp to work in the British zone’s resort town.",
+    "locationIds": ["kellerberg", "velden"]
+  },
+  {
+    "type": "map",
+    "title": "Journey from Austria to America",
+    "placement": "\"...made it possible for us to immigrate.\"",
+    "summary": "A map depicting the long journey from postwar Austria to the United States. It traces the starting point at the Kellerberg D.P. camp in Carinthia, Austria, and the end point in the USA (New York). Like many displaced persons, Mark’s family likely traveled by train from Austria to a port in Germany or Italy, then crossed the Atlantic by ship. This route was a common corridor for refugee resettlement, taking survivors of Europe’s turmoil to new homes in North America.",
+    "locationIds": ["kellerberg", "newyork"]
+  },
+  {
+    "type": "annotation",
+    "term": "Displaced Persons (DP)",
+    "placement": "\"...D.P. camp...\"",
+    "summary": "A term for people uprooted by World War II who could not return to their homes. **Displaced Persons** included former concentration camp inmates, forced laborers, POWs, and refugees from areas annexed or controlled by the USSR. In 1945 there were over **11 million** DPs in Europe:contentReference[oaicite:29]{index=29}. Hundreds of thousands remained in limbo after the war, living in DP camps until they could be repatriated or resettled abroad:contentReference[oaicite:30]{index=30}.",
+    "link": "https://encyclopedia.ushmm.org/content/en/film/displaced-persons-camp-in-austria"
+  },
+  {
+    "type": "annotation",
+    "term": "DP camp",
+    "placement": "\"...D.P. camp...\"",
+    "summary": "Short for **Displaced Persons camp** – a refugee camp set up by the Allied authorities and UNRRA after WWII. DP camps provided temporary shelter, food, and medical care for displaced persons who had nowhere else to go:contentReference[oaicite:31]{index=31}. These camps existed in occupied Germany, Austria, and Italy from 1945 into the early 1950s. Kellerberg was one such DP camp in Austria.",
+    "link": "https://encyclopedia.ushmm.org/content/en/film/displaced-persons-camp-in-austria"
+  },
+  {
+    "type": "annotation",
+    "term": "Kellerberg",
+    "placement": "\"camp's food supply warehouse\"",
+    "summary": "A Displaced Persons camp in **Kärnten (Carinthia)**, Austria, located near the village of Kellerberg (northwest of Villach). The Kellerberg camp, along with the nearby Feffernitz camp, housed thousands of refugees in the late 1940s:contentReference[oaicite:32]{index=32}. It was in the British occupation zone and operated first by UNRRA, then by the IRO, until the camp’s residents emigrated or the camp closed in the early 1950s.",
+    "link": "https://www.projectancestry.com/dp-camps-kaernten-carinthia"
+  },
+  {
+    "type": "annotation",
+    "term": "Lake Wörthersee",
+    "placement": "\"Lake Worthersee\"",
+    "summary": "A picturesque alpine lake in Carinthia, southern Austria. **Lake Wörthersee** (Wörther See in German) is known as a tourist resort area with mild summers and clear waters. The town of Velden lies on its western shore:contentReference[oaicite:33]{index=33}. After WWII, the British military requisitioned lakeside hotels here (e.g. Schloss Velden) as rest camps for troops.",
+    "link": "https://en.wikipedia.org/wiki/Schloss_Velden"
+  },
+  {
+    "type": "annotation",
+    "term": "Velden",
+    "placement": "\"Velden.\"",
+    "summary": "Short for **Velden am Wörthersee**, a resort town on Lake Wörthersee in Carinthia, Austria. Velden was a popular vacation spot (a *“tourist resort”* known for its grand hotels):contentReference[oaicite:34]{index=34}. In 1945–46, British occupation forces turned Velden into a recreation center for soldiers, and Mark worked in one of the hotels there.",
+    "link": "https://en.wikipedia.org/wiki/Schloss_Velden"
+  },
+  {
+    "type": "annotation",
+    "term": "British occupation zone (Austria)",
+    "placement": "\"British Army\"",
+    "summary": "After WWII, Austria was divided among the Allies. The **British occupation zone** comprised Carinthia, Styria, and East Tyrol in the south:contentReference[oaicite:35]{index=35}. From 1945–1955, British military authorities governed this area, overseeing local administration and supervising DP camps. The British zone was also where Mark’s family lived (Carinthia) and where he worked for the British Army. Allied occupation of Austria ended in **1955** with the Austrian State Treaty, which restored Austria’s full independence:contentReference[oaicite:36]{index=36}.",
+    "link": "https://en.wikipedia.org/wiki/Allied-occupied_Austria"
+  },
+  {
+    "type": "annotation",
+    "term": "Food rationing",
+    "placement": "\"food rations\"",
+    "summary": "A system of controlled distribution of food. In postwar Europe (and DP camps), basic **rations** were allotted per person – often a limited calorie amount. Those who worked essential jobs in the camps could receive **supplementary rations** as an incentive:contentReference[oaicite:37]{index=37}. Rationing ensured everyone got something, though usually just bare necessities like bread, potatoes, fats, and occasional protein.",
+    "link": "https://klagenfurtmigrationstudies.home.blog/the-unrra-in-austria-insights-and-conclusions/"
+  },
+  {
+    "type": "annotation",
+    "term": "US Displaced Persons Act (1948)",
+    "placement": "\"USA\"",
+    "summary": "A United States law (enacted June 25, 1948) that enabled the admission of certain European refugees left homeless by WWII. The act initially provided for **200,000 DPs** to immigrate to the U.S. over two years:contentReference[oaicite:38]{index=38}. It was amended in 1950 to allow another 200,000 and to drop some discriminatory provisions:contentReference[oaicite:39]{index=39}. By the act’s end in 1952, about **400,000** displaced persons had gained U.S. visas, including many families from DP camps.",
+    "link": "https://www.trumanlibraryinstitute.org/the-displaced-persons-act-of-1948/"
+  },
+  {
+    "type": "annotation",
+    "term": "Catholic Relief Services (CRS)",
+    "placement": "\"Catholic Relief Organization\"",
+    "summary": "The international humanitarian arm of the U.S. Catholic Church. After WWII, **Catholic Relief Services** (founded in 1943 as War Relief Services) worked to resettle refugees. It partnered with the U.S. National Catholic Welfare Conference’s refugee office to sponsor DP families for immigration:contentReference[oaicite:40]{index=40}. CRS would secure housing and jobs through Catholic parishes in America and provide travel funds, essentially making it possible for refugees like Mark’s family to start anew in the U.S.",
+    "link": "https://cmsny.org/new-cms-jstor-collection-adds-to-history-of-refugee-care/"
+  },
+  {
+    "type": "annotation",
+    "term": "Immigration sponsorship",
+    "placement": "\"sponsored our family\"",
+    "summary": "A requirement that an individual or organization in the destination country agrees to **take responsibility for a refugee family**. A sponsor guarantees housing, employment or financial support, so that the immigrants won’t become dependent on public welfare. For postwar DPs, churches and charities often served as sponsors by providing **affidavits of support** – pledges that the refugees would be cared for upon arrival:contentReference[oaicite:41]{index=41}. This sponsorship was crucial for obtaining a visa under programs like the DP Act.",
+    "link": "https://cmsny.org/new-cms-jstor-collection-adds-to-history-of-refugee-care/"
+  },
+  {
+    "type": "annotation",
+    "term": "Refugee resettlement",
+    "placement": "\"to immigrate.\"",
+    "summary": "The organized process of moving refugees from temporary refuge (camps or host countries) to a new permanent country. After WWII, **resettlement** efforts by the International Refugee Organization and Western nations relocated hundreds of thousands of European DPs to new homes overseas. By 1951, the vast majority of the postwar displaced persons had been resettled – many in the United States, Canada, Australia, and other welcoming countries:contentReference[oaicite:42]{index=42}. Resettlement typically included arranging transportation and support for integrating into the new society.",
+    "link": "https://www.nationalww2museum.org/war/articles/last-million-eastern-european-displaced-persons-postwar-germany"
+  },
+  {
+    "type": "annotation",
+    "term": "UNRRA",
+    "placement": "\"...D.P. camp...\"",
+    "summary": "The **United Nations Relief and Rehabilitation Administration** – an international agency established in 1943 to aid countries devastated by WWII. From 1945–1947, UNRRA managed relief efforts for millions of displaced persons. It ran DP camps in the Western Allied zones, providing food, shelter, medical care, and repatriation services:contentReference[oaicite:43]{index=43}. UNRRA teams in Austria (often working with the occupying military) administered camps like Kellerberg, until the IRO took over in July 1947.",
+    "link": "https://klagenfurtmigrationstudies.home.blog/the-unrra-in-austria-insights-and-conclusions/"
+  },
+  {
+    "type": "annotation",
+    "term": "IRO",
+    "placement": "\"approved for immigration to a new country.\"",
+    "summary": "The **International Refugee Organization**, which succeeded UNRRA in 1947 as the agency responsible for displaced persons. The IRO focused on identifying refugees who could not return home (the “last million”) and **resettling** them in new countries. It screened DP camp residents, helped prepare their immigration documents, and chartered ships for emigration. The IRO operated until 1952, by which time most DPs, including Mark’s family, had emigrated or been otherwise settled:contentReference[oaicite:44]{index=44}.",
+    "link": "https://klagenfurtmigrationstudies.home.blog/the-unrra-in-austria-insights-and-conclusions/"
+  }
+]

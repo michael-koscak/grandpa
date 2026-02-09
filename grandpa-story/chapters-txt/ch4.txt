@@ -1,0 +1,84 @@
+[
+  {
+    "type": "photo",
+    "title": "Surrender and Capture at Bleiburg (May 1945)",
+    "placement": "\"The communists took over the country.\"",
+    "summary": "Crowds of retreating Axis-aligned soldiers and civilians, including Slovenian Home Guard and others, were halted by British forces near **Bleiburg** in May 1945 and forced to surrender to Tito’s Partisans:contentReference[oaicite:0]{index=0}. In the ensuing **post-war reprisals**, thousands of these prisoners and other anti-communist detainees were executed without trial:contentReference[oaicite:1]{index=1}:contentReference[oaicite:2]{index=2}. The chaotic scene at Bleiburg became a grim prelude to the tragedy that befell Mark’s father and many others considered enemies of the new regime.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Kolona_Usta%C5%A1ev_in_hrva%C5%A1kih_beguncev_blizu_Pliberka.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kolona_Usta%C5%A1ev_in_hrva%C5%A1kih_beguncev_blizu_Pliberka.jpg",
+    "credit": "Wikimedia Commons",
+    "year": "1945"
+  },
+  {
+    "type": "photo",
+    "title": "Refugees Awaiting Deportation, Austria 1945",
+    "placement": "\"Later in the year we were put on a train and deported to Austria.\"",
+    "summary": "After World War II, waves of displaced families gathered in Allied-occupied Austria. In this photo, a crowd of **refugees** (under the watch of armed guards) waits at Camp Reichenau near **Innsbruck**, June 1945:contentReference[oaicite:3]{index=3}:contentReference[oaicite:4]{index=4}. These refugees, like Mark’s family, were organized and processed in holding camps before being transported onward. Many were escaping or expelled from Yugoslavia, boarding trains to reach safer territory under British or American protection.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Italian_refugees_at_Camp_Reichenau%2C_Innsbruck%2C_Austria%2C_on_18_June_1945_%28111-SC-209994%29.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Italian_refugees_at_Camp_Reichenau,_Innsbruck,_Austria,_on_18_June_1945_(111-SC-209994).jpg",
+    "credit": "Wikimedia Commons",
+    "year": "1945"
+  },
+  {
+    "type": "photo",
+    "title": "Kellerberg Displaced Persons Camp, 1946",
+    "placement": "\"The four of us spent the next five years as refugees in the Kellerberg Displaced Persons Camp in Austria.\"",
+    "summary": "British officers inspect **Kellerberg Displaced Persons Camp** in Carinthia, Austria (March 1946). This camp, along with the nearby Feffernitz camp, housed around 10,000 displaced people:contentReference[oaicite:5]{index=5}:contentReference[oaicite:6]{index=6}. Wooden barracks are visible in the photo, similar to those Mark’s family lived in. Under British Army administration, such camps provided basic shelter and relief for **refugee families** like Mark’s, who survived five years here thanks to international aid and their mother’s resilience.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/BRITISH_FORCES_OF_OCCUPATION_IN_AUSTRIA%2C_1945_-_1947_VIE1314.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BRITISH_FORCES_OF_OCCUPATION_IN_AUSTRIA,_1945_-_1947_VIE1314.jpg",
+    "credit": "Wikimedia Commons",
+    "year": "1946"
+  },
+  {
+    "type": "photo",
+    "title": "Slovenian Refugee Convoy to Carinthia (May 1945)",
+    "placement": "\"we found out later that they were being held in various detention centers and most of them were later deported to neighboring countries.\"",
+    "summary": "A rare photograph of Slovene civilians fleeing toward **Carinthia** (Koroška) in May 1945:contentReference[oaicite:7]{index=7}:contentReference[oaicite:8]{index=8}. Using carts and wagons piled with possessions, these **refugee families** left their homes amid the upheaval of the communist takeover. Many who avoided immediate arrest or execution were later **deported** across the Austrian border. Mark’s family would similarly be uprooted and expelled from Slovenia in 1946, part of the broader post-war displacement of populations.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Begunci_na_poti_na_Koro%C5%A1ko.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Begunci_na_poti_na_Koro%C5%A1ko.jpg",
+    "credit": "Wikimedia Commons",
+    "year": "1945"
+  },
+  {
+    "type": "context",
+    "title": "Post-War Killings in Slovenia (1945)",
+    "placement": "\"the men who were held as political prisoners were starved severely and beaten daily, and that many of them died, as apparently did my father.\"",
+    "summary": "After the communist Partisans took power in May 1945, Yugoslavia was rocked by a wave of **extrajudicial killings** and mass repression. In Slovenia alone, an estimated **15,000 people** – military and civilian opponents of the new regime – were killed without trial in mid-1945:contentReference[oaicite:9]{index=9}. Many prisoners of war who had surrendered (or were repatriated from Austria) were executed en masse at hidden sites like **Kočevski Rog**, where thousands of Home Guard soldiers were massacred in late May 1945:contentReference[oaicite:10]{index=10}. Others, like Mark’s father, perished in communist-run **concentration camps** or prisons due to deliberate starvation, beatings, and abuse:contentReference[oaicite:11]{index=11}:contentReference[oaicite:12]{index=12}. The communist secret police (**OZNA**) directed these purges:contentReference[oaicite:13]{index=13}, operating with great secrecy. For decades, the authorities concealed these crimes – forbidding any public mention of the victims and denying families like Mark’s any information or grave for their loved ones:contentReference[oaicite:14]{index=14}. Only long after Slovenia’s independence were these post-war atrocities openly acknowledged and memorialized.",
+    "link": "https://www.gov.si/en/news/2025-07-01-few-surviving-written-traces-of-the-post-war-extrajudicial-killings/"
+  },
+  {
+    "type": "context",
+    "title": "Mass Deportations from Yugoslavia (1945–46)",
+    "placement": "\"that we better tell the Austrian and British authorities that we were German descent and that if we were not accepted in Austria that they are going to keep on sending us across the border until they would take us.\"",
+    "summary": "In the aftermath of WWII, Yugoslavia’s new government expelled huge numbers of people deemed undesirable or “enemies.” The largest group were the **ethnic Germans** (Volksdeutsche) of Yugoslavia. In late 1944, Tito’s authorities decided to **confiscate German property and deport the German minority** en masse:contentReference[oaicite:15]{index=15}. By one estimate, of about 524,000 pre-war ethnic Germans in Yugoslavia, roughly **370,000** either fled or were expelled to Austria and Germany by 1946:contentReference[oaicite:16]{index=16}. About **50,000** ethnic German civilians perished in brutal internment camps due to starvation, disease, or execution:contentReference[oaicite:17]{index=17}:contentReference[oaicite:18]{index=18} before the survivors were finally transferred out (the Red Cross arranged transports from camps like Sterntal in Slovenia to Austria in late 1945):contentReference[oaicite:19]{index=19}. \n\nMark’s family, though not ethnic German, was swept up in this climate of ethnic and political cleansing. In early 1946, they were forced from their home and pressured to claim **German ancestry** so that British-occupied Austria would accept them as refugees. Many other Slovene families associated with anti-communist or religious groups were similarly uprooted or intimidated into exile. Austria, divided into Allied zones, received tens of thousands of these deportees – with Carinthia (the British Zone) taking in Slovenian and Croatian refugees. Thanks to Mark’s mother’s German language skills, his family gained entry into Austria, where they lived as Displaced Persons rather than face further persecution in Yugoslavia:contentReference[oaicite:20]{index=20}:contentReference[oaicite:21]{index=21}.",
+    "link": "https://en.wikipedia.org/wiki/Germans_of_Yugoslavia"
+  },
+  {
+    "type": "map",
+    "title": "Detention in Ljubljana and Maribor (1945)",
+    "placement": "\"We were held at a couple of different lockups in Ljubljana and Maribor for several months.\"",
+    "summary": "This map highlights **Ljubljana** and **Maribor** in Slovenia, the two cities where Mark’s family was imprisoned by the secret police in 1945–46 before their deportation. Both cities were sites of detention centers for political prisoners and families deemed hostile to the new regime.",
+    "locationIds": ["ljubljana", "maribor"]
+  },
+  {
+    "type": "map",
+    "title": "Route into Austrian Exile (1946)",
+    "placement": "\"Later in the year we were put on a train and deported to Austria.\"",
+    "summary": "This map shows the journey of Mark’s family from Slovenia into Austria. After months in Maribor, they were deported by train across the border to **Kellerberg** in Carinthia (British Occupation Zone). Kellerberg, near Villach, became their home in exile, as they settled in a Displaced Persons camp there.",
+    "locationIds": ["maribor", "kellerberg"]
+  },
+  {
+    "type": "annotation",
+    "term": "German descent",
+    "placement": "\"that we were German descent\"",
+    "summary": "Mark’s family was told to claim **German descent** – referring to the **Volksdeutsche**, ethnic Germans in Yugoslavia. After WWII, Yugoslav authorities treated the German minority as traitors and expelled most of them. Roughly half a million Volksdeutsche lived in prewar Yugoslavia; by 1946 the vast majority had been killed, expelled, or displaced to Austria and Germany:contentReference[oaicite:22]{index=22}:contentReference[oaicite:23]{index=23}.",
+    "link": "https://en.wikipedia.org/wiki/Volksdeutsche"
+  },
+  {
+    "type": "annotation",
+    "term": "British occupation zone",
+    "placement": "\"occupied by British forces\"",
+    "summary": "After WWII, **Allied-occupied Austria** was divided into zones. **Carinthia** and Styria in the south (including the area of Kellerberg camp) fell under the British Zone:contentReference[oaicite:24]{index=24}. That’s why British authorities were responsible for accepting and resettling refugees like Mark’s family who crossed into southern Austria in 1946.",
+    "link": "https://en.wikipedia.org/wiki/Allied-occupied_Austria"
+  }
+]
