@@ -95,6 +95,7 @@ h1, h2, h3, h4, h5, h6 {
   text-indent: 0;
 }
 
+/* Drop cap on first paragraph in each memoir section */
 .memoir-text p:first-of-type::first-letter {
   font-family: var(--font-playfair), Georgia, serif;
   font-size: 3.5em;
@@ -103,6 +104,20 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 0.1em;
   padding-top: 0.1em;
   color: var(--color-accent);
+}
+
+/* Prevent drop caps on context cards, photo captions, and other enhanced content */
+.memoir-text .rounded-xl p::first-letter,
+.memoir-text .rounded-lg p::first-letter,
+.memoir-text .border-context-border p::first-letter,
+.memoir-text [class*="bg-gradient"] p::first-letter {
+  font-family: inherit;
+  font-size: inherit;
+  float: none;
+  line-height: inherit;
+  padding-right: 0;
+  padding-top: 0;
+  color: inherit;
 }
 
 /* Selection styling */
