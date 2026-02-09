@@ -1,5 +1,8 @@
 export const MAPBOX_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_TOKEN || '';
 
+// Check if token is available
+export const HAS_MAPBOX_TOKEN = Boolean(MAPBOX_TOKEN && MAPBOX_TOKEN.length > 0);
+
 // Custom map style with warm, archival tones
 export const MAP_STYLE = 'mapbox://styles/mapbox/light-v11';
 

@@ -5,9 +5,11 @@ import mapboxgl from 'mapbox-gl';
 import Link from 'next/link';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { getLocationById, locationColors, MapLocation } from '@/lib/mapData';
-import { MAPBOX_TOKEN, MAP_STYLE } from '@/lib/mapConfig';
+import { MAPBOX_TOKEN, MAP_STYLE, HAS_MAPBOX_TOKEN } from '@/lib/mapConfig';
 
-mapboxgl.accessToken = MAPBOX_TOKEN;
+if (HAS_MAPBOX_TOKEN) {
+  mapboxgl.accessToken = MAPBOX_TOKEN;
+}
 
 interface MiniMapProps {
   locations: string[];
@@ -33,7 +35,7 @@ export default function MiniMap({
     .filter((loc): loc is MapLocation => loc !== undefined);
 
   useEffect(() => {
-    if (map.current || !mapContainer.current || resolvedLocations.length === 0) return;
+    if (!HAS_MAPBOX_TOKEN || map.current || !mapContainer.current || resolvedLocations.length === 0) return;
 
     // Calculate center and zoom
     const coords = resolvedLocations.map(l => l.coordinates);
@@ -145,6 +147,34 @@ export default function MiniMap({
 
   if (resolvedLocations.length === 0) {
     return null;
+  }
+
+  // If no Mapbox token, show placeholder
+  if (!HAS_MAPBOX_TOKEN) {
+    return (
+      <div 
+        className={`relative rounded-lg overflow-hidden border border-context-border bg-paper-dark ${className}`}
+        style={{ width, height }}
+      >
+        <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-center">
+          <svg className="w-8 h-8 text-ink-muted mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+          </svg>
+          <p className="text-xs text-ink-muted font-[family-name:var(--font-source-sans)]">
+            {resolvedLocations.length === 1 ? resolvedLocations[0].name : 'Map locations'}
+          </p>
+        </div>
+        {showViewFullMapLink && (
+          <Link
+            href="/map"
+            className="absolute top-2 right-2 bg-paper/90 backdrop-blur-sm px-2 py-1 rounded text-xs font-[family-name:var(--font-source-sans)] text-ink-light hover:text-accent transition-colors shadow-sm"
+          >
+            View map →
+          </Link>
+        )}
+      </div>
+    );
   }
 
   return (

@@ -12,14 +12,14 @@ import {
   JourneySegment,
 } from '@/lib/mapData';
 import { journeyNarratives, JourneyNarrative } from '@/lib/journeyNarrative';
-import { MAPBOX_TOKEN, MAP_STYLE, FLY_TO_OPTIONS } from '@/lib/mapConfig';
+import { MAPBOX_TOKEN, MAP_STYLE, FLY_TO_OPTIONS, HAS_MAPBOX_TOKEN } from '@/lib/mapConfig';
 import MapMarker from './MapMarker';
 import MapPopup from './MapPopup';
 import MapPanel from './MapPanel';
 import StoryPanel from './StoryPanel';
 import { createRoot, Root } from 'react-dom/client';
 
-if (MAPBOX_TOKEN) {
+if (HAS_MAPBOX_TOKEN) {
   mapboxgl.accessToken = MAPBOX_TOKEN;
 }
 
@@ -103,8 +103,8 @@ export default function JourneyMap() {
   useEffect(() => {
     if (map.current || !mapContainer.current) return;
 
-    if (!MAPBOX_TOKEN) {
-      setMapError('Mapbox token is missing.');
+    if (!HAS_MAPBOX_TOKEN) {
+      setMapError('Map functionality requires configuration. Please contact the site administrator.');
       return;
     }
 
