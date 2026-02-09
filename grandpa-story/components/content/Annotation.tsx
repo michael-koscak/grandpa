@@ -59,6 +59,7 @@ export default function Annotation({
 }: AnnotationProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [position, setPosition] = useState<'above' | 'below'>('below');
+  const [horizontalPosition, setHorizontalPosition] = useState<'center' | 'left' | 'right'>('center');
   const triggerRef = useRef<HTMLSpanElement>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);
 
@@ -69,6 +70,24 @@ export default function Annotation({
       const rect = triggerRef.current.getBoundingClientRect();
       const spaceBelow = window.innerHeight - rect.bottom;
       setPosition(spaceBelow < 200 ? 'above' : 'below');
+
+      // Check horizontal positioning to avoid overflow on mobile
+      const tooltipWidth = 288; // w-72 = 288px
+      const viewportWidth = window.innerWidth;
+      const padding = 16; // 1rem padding on each side
+      
+      // Calculate if centered tooltip would overflow
+      const centerOffset = tooltipWidth / 2;
+      const wouldOverflowLeft = rect.left + rect.width / 2 - centerOffset < padding;
+      const wouldOverflowRight = rect.left + rect.width / 2 + centerOffset > viewportWidth - padding;
+      
+      if (wouldOverflowLeft) {
+        setHorizontalPosition('left');
+      } else if (wouldOverflowRight) {
+        setHorizontalPosition('right');
+      } else {
+        setHorizontalPosition('center');
+      }
     }
   }, [isOpen]);
 
@@ -119,11 +138,13 @@ export default function Annotation({
         <span
           ref={tooltipRef}
           className={`
-            absolute z-50 w-72 p-0 
+            absolute z-50 w-[calc(100vw-2rem)] sm:w-72 max-w-sm p-0 
             bg-paper rounded-lg shadow-xl border border-context-border
             animate-fade-in block
             ${position === 'above' ? 'bottom-full mb-2' : 'top-full mt-2'}
-            left-1/2 -translate-x-1/2
+            ${horizontalPosition === 'center' ? 'left-1/2 -translate-x-1/2' : ''}
+            ${horizontalPosition === 'left' ? 'left-0' : ''}
+            ${horizontalPosition === 'right' ? 'right-0' : ''}
           `}
           onMouseEnter={() => setIsOpen(true)}
           onMouseLeave={() => setIsOpen(false)}
@@ -131,7 +152,10 @@ export default function Annotation({
           {/* Arrow */}
           <span 
             className={`
-              absolute left-1/2 -translate-x-1/2 w-3 h-3 bg-paper border-context-border rotate-45 block
+              absolute w-3 h-3 bg-paper border-context-border rotate-45 block
+              ${horizontalPosition === 'center' ? 'left-1/2 -translate-x-1/2' : ''}
+              ${horizontalPosition === 'left' ? 'left-4' : ''}
+              ${horizontalPosition === 'right' ? 'right-4' : ''}
               ${position === 'above' 
                 ? 'bottom-0 translate-y-1/2 border-r border-b' 
                 : 'top-0 -translate-y-1/2 border-l border-t'
