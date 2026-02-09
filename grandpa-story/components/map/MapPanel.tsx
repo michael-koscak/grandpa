@@ -8,10 +8,11 @@ import { StaticMarker } from './MapMarker';
 interface MapPanelProps {
   activeSegments: Set<string>;
   onToggleSegment: (segmentId: string) => void;
-  onFlyToSegment: (segmentId: string) => void;
+  onFlyToSegment: (segmentId: string, subRegionId?: string) => void;
   onShowAll: () => void;
   onStartGuidedJourney?: () => void;
   currentStorySegmentId?: string | null;
+  currentSubRegionId?: string | null;
 }
 
 const locationTypeLabels: Record<LocationType, string> = {
@@ -33,6 +34,7 @@ export default function MapPanel({
   onShowAll,
   onStartGuidedJourney,
   currentStorySegmentId,
+  currentSubRegionId,
 }: MapPanelProps) {
   const [isCollapsed, setIsCollapsed] = useState(false);
   const [showLegend, setShowLegend] = useState(false);
@@ -86,45 +88,86 @@ export default function MapPanel({
 
         {!isCollapsed && (
           <>
-            {/* Journey Segments - each is a single clickable button */}
-            <div className="p-3 space-y-1 max-h-[50vh] overflow-y-auto">
+            {/* Journey Segments with inline sub-regions */}
+            <div className="p-3 space-y-0.5 max-h-[50vh] overflow-y-auto">
               {journeySegments.map((segment) => {
                 const isCurrent = currentStorySegmentId === segment.id;
+                const hasSubRegions = segment.subRegions && segment.subRegions.length > 0;
                 return (
-                  <button
-                    key={segment.id}
-                    onClick={() => onFlyToSegment(segment.id)}
-                    className={`
-                      w-full flex items-center gap-3 px-3 py-3 rounded-lg text-left transition-all
-                      ${isCurrent 
-                        ? 'bg-paper-dark ring-1 ring-accent/40 shadow-sm' 
-                        : 'hover:bg-paper-dark/60'
-                      }
-                    `}
-                  >
-                    <div 
-                      className={`w-3.5 h-3.5 rounded-full flex-shrink-0 border-2 transition-all ${
-                        isCurrent ? 'border-white shadow-md scale-110' : 'border-white/70 shadow-sm'
-                      }`}
-                      style={{ backgroundColor: segment.color }}
-                    />
-                    <div className="flex-1 min-w-0">
-                      <p className={`text-sm font-[family-name:var(--font-source-sans)] font-medium truncate transition-colors ${
-                        isCurrent ? 'text-ink' : 'text-ink-light'
-                      }`}>
-                        {segment.name}
-                      </p>
-                      <p className="text-xs text-ink-muted">
-                        {segment.years}
-                      </p>
-                    </div>
-                    {/* Arrow indicator */}
-                    <svg className={`w-4 h-4 flex-shrink-0 transition-colors ${
-                      isCurrent ? 'text-accent' : 'text-ink-muted/40'
-                    }`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </button>
+                  <div key={segment.id}>
+                    <button
+                      onClick={() => onFlyToSegment(segment.id)}
+                      className={`
+                        w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-left transition-all
+                        ${isCurrent 
+                          ? 'bg-paper-dark ring-1 ring-accent/40 shadow-sm' 
+                          : 'hover:bg-paper-dark/60'
+                        }
+                      `}
+                    >
+                      <div 
+                        className={`w-3.5 h-3.5 rounded-full flex-shrink-0 border-2 transition-all ${
+                          isCurrent ? 'border-white shadow-md scale-110' : 'border-white/70 shadow-sm'
+                        }`}
+                        style={{ backgroundColor: segment.color }}
+                      />
+                      <div className="flex-1 min-w-0">
+                        <p className={`text-sm font-[family-name:var(--font-source-sans)] font-medium truncate transition-colors ${
+                          isCurrent ? 'text-ink' : 'text-ink-light'
+                        }`}>
+                          {segment.name}
+                        </p>
+                        <p className="text-xs text-ink-muted">
+                          {segment.years}
+                        </p>
+                      </div>
+                      {/* Arrow indicator - rotates when expanded */}
+                      <svg className={`w-4 h-4 flex-shrink-0 transition-all ${
+                        isCurrent ? 'text-accent' : 'text-ink-muted/40'
+                      } ${isCurrent && hasSubRegions ? 'rotate-90' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </button>
+
+                    {/* Sub-regions - shown when segment is active */}
+                    {isCurrent && hasSubRegions && (
+                      <div className="ml-5 pl-3 py-1 border-l-2 space-y-0.5" style={{ borderColor: `${segment.color}50` }}>
+                        {segment.subRegions!.map((subRegion) => {
+                          const isActiveSub = currentSubRegionId === subRegion.id;
+                          return (
+                            <button
+                              key={subRegion.id}
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                onFlyToSegment(segment.id, subRegion.id);
+                              }}
+                              className={`
+                                w-full flex items-center gap-2 px-2 py-1.5 rounded-md text-left transition-all
+                                ${isActiveSub 
+                                  ? 'bg-paper-dark' 
+                                  : 'hover:bg-paper-dark/40'
+                                }
+                              `}
+                            >
+                              <div 
+                                className={`w-2 h-2 rounded-full flex-shrink-0 transition-all ${
+                                  isActiveSub ? 'scale-125' : ''
+                                }`}
+                                style={{ 
+                                  backgroundColor: isActiveSub ? segment.color : `${segment.color}80`,
+                                }}
+                              />
+                              <span className={`text-xs font-[family-name:var(--font-source-sans)] transition-colors ${
+                                isActiveSub ? 'text-ink font-medium' : 'text-ink-light'
+                              }`}>
+                                {subRegion.name}
+                              </span>
+                            </button>
+                          );
+                        })}
+                      </div>
+                    )}
+                  </div>
                 );
               })}
             </div>
@@ -190,6 +233,7 @@ export default function MapPanel({
         onFlyToSegment={onFlyToSegment}
         onShowAll={onShowAll}
         currentStorySegmentId={currentStorySegmentId}
+        currentSubRegionId={currentSubRegionId}
       />
     </>
   );
@@ -200,6 +244,7 @@ function MobilePanel({
   onFlyToSegment,
   onShowAll,
   currentStorySegmentId,
+  currentSubRegionId,
 }: MapPanelProps) {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -282,44 +327,85 @@ function MobilePanel({
             </button>
           </div>
 
-          <div className="space-y-1">
+          <div className="space-y-0.5">
             {journeySegments.map((segment) => {
               const isCurrent = currentStorySegmentId === segment.id;
+              const hasSubRegions = segment.subRegions && segment.subRegions.length > 0;
               return (
-                <button
-                  key={segment.id}
-                  onClick={() => {
-                    onFlyToSegment(segment.id);
-                    setIsExpanded(false);
-                  }}
-                  className={`
-                    w-full flex items-center gap-3 p-3 rounded-lg text-left transition-all
-                    ${isCurrent
-                      ? 'bg-paper-dark ring-1 ring-accent/40 shadow-sm'
-                      : 'hover:bg-paper-dark/60'
-                    }
-                  `}
-                >
-                  <div 
-                    className="w-4 h-4 rounded-full flex-shrink-0"
-                    style={{ backgroundColor: segment.color }}
-                  />
-                  <div className="flex-1">
-                    <p className={`text-sm font-[family-name:var(--font-source-sans)] font-medium ${
-                      isCurrent ? 'text-ink' : 'text-ink-light'
-                    }`}>
-                      {segment.name}
-                    </p>
-                    <p className="text-xs text-ink-muted">
-                      {segment.years}
-                    </p>
-                  </div>
-                  <svg className={`w-4 h-4 flex-shrink-0 ${
-                    isCurrent ? 'text-accent' : 'text-ink-muted/40'
-                  }`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </button>
+                <div key={segment.id}>
+                  <button
+                    onClick={() => {
+                      onFlyToSegment(segment.id);
+                      if (!hasSubRegions) setIsExpanded(false);
+                    }}
+                    className={`
+                      w-full flex items-center gap-3 p-3 rounded-lg text-left transition-all
+                      ${isCurrent
+                        ? 'bg-paper-dark ring-1 ring-accent/40 shadow-sm'
+                        : 'hover:bg-paper-dark/60'
+                      }
+                    `}
+                  >
+                    <div 
+                      className="w-4 h-4 rounded-full flex-shrink-0"
+                      style={{ backgroundColor: segment.color }}
+                    />
+                    <div className="flex-1">
+                      <p className={`text-sm font-[family-name:var(--font-source-sans)] font-medium ${
+                        isCurrent ? 'text-ink' : 'text-ink-light'
+                      }`}>
+                        {segment.name}
+                      </p>
+                      <p className="text-xs text-ink-muted">
+                        {segment.years}
+                      </p>
+                    </div>
+                    <svg className={`w-4 h-4 flex-shrink-0 transition-all ${
+                      isCurrent ? 'text-accent' : 'text-ink-muted/40'
+                    } ${isCurrent && hasSubRegions ? 'rotate-90' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </button>
+
+                  {/* Sub-regions */}
+                  {isCurrent && hasSubRegions && (
+                    <div className="ml-5 pl-3 py-1 border-l-2 space-y-0.5" style={{ borderColor: `${segment.color}50` }}>
+                      {segment.subRegions!.map((subRegion) => {
+                        const isActiveSub = currentSubRegionId === subRegion.id;
+                        return (
+                          <button
+                            key={subRegion.id}
+                            onClick={() => {
+                              onFlyToSegment(segment.id, subRegion.id);
+                              setIsExpanded(false);
+                            }}
+                            className={`
+                              w-full flex items-center gap-2 px-2 py-1.5 rounded-md text-left transition-all
+                              ${isActiveSub 
+                                ? 'bg-paper-dark' 
+                                : 'hover:bg-paper-dark/40'
+                              }
+                            `}
+                          >
+                            <div 
+                              className={`w-2 h-2 rounded-full flex-shrink-0 transition-all ${
+                                isActiveSub ? 'ring-2 ring-offset-1 ring-offset-paper' : ''
+                              }`}
+                              style={{ 
+                                backgroundColor: isActiveSub ? segment.color : `${segment.color}80`,
+                              }}
+                            />
+                            <span className={`text-xs font-[family-name:var(--font-source-sans)] transition-colors ${
+                              isActiveSub ? 'text-ink font-medium' : 'text-ink-light'
+                            }`}>
+                              {subRegion.name}
+                            </span>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  )}
+                </div>
               );
             })}
           </div>

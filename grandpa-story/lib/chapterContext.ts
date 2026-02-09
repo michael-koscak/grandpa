@@ -38,6 +38,11 @@ export interface InlineMapData {
   title?: string;
   description?: string;
   afterParagraph: number;
+  // Optional display hints for better inline rendering
+  center?: [number, number];
+  zoom?: number;
+  lineColor?: string;
+  segmentId?: string;
 }
 
 export interface ChapterContextData {
@@ -122,6 +127,10 @@ export const chapter4Context: ChapterContextData = {
       title: 'Detention in Ljubljana and Maribor (1945-46)',
       description: 'Mark\'s family was imprisoned by the secret police in Ljubljana and Maribor for several months in 1945-46 before their deportation. Both cities were sites of detention centers for families deemed hostile to the new communist regime.',
       afterParagraph: 3,
+      center: [15.1, 46.3],
+      zoom: 7.5,
+      lineColor: '#8B4513',
+      segmentId: 'displacement',
     },
     {
       id: 'route-austrian-exile',
@@ -129,6 +138,10 @@ export const chapter4Context: ChapterContextData = {
       title: 'Route into Austrian Exile (1946)',
       description: 'After months in detention, Mark\'s family was deported by train from Maribor across the border to Kellerberg in Carinthia (British Occupation Zone). This displaced persons camp near Villach became their home in exile for the next five years.',
       afterParagraph: 3,
+      center: [14.4, 46.55],
+      zoom: 7,
+      lineColor: '#8B4513',
+      segmentId: 'displacement',
     },
   ],
   annotations: {
@@ -272,17 +285,14 @@ Parish life included weekly Mass, sacraments, and social events. Children typica
   inlineMaps: [
     {
       id: 'chicago-home-work',
-      locationIds: ['franklinpark', 'forestpark', 'joliet', 'ohare'],
-      title: 'Chicago Area: Home and Work Locations',
-      description: 'Mark\'s suburban home was in Franklin Park, IL (northwest of Chicago). He worked at the Naval Ordnance Station in Forest Park (1962-71), the Army Ammunition Agency in Joliet (1971-73), and the FAA near O\'Hare Airport (1973-1995).',
+      locationIds: ['franklinpark'],
+      title: 'Franklin Park — The Family Home',
+      description: 'In 1959, Mark and Wally purchased their home at 3629 Scott Street in Franklin Park, IL. This northwest Chicago suburb became the center of family life for over 35 years. Mark worked for the U.S. Navy, then the FAA, building a 36-year federal career.',
       afterParagraph: 4,
-    },
-    {
-      id: 'family-geographic-spread',
-      locationIds: ['chicago', 'carolstream', 'elgin', 'rockford', 'stlouis', 'nashville'],
-      title: 'Family\'s Geographic Spread',
-      description: 'Over the years, Mark\'s descendants settled in many places – Carol Stream, Elgin, St. Louis, Rockford, Nashville – but always returned to Franklin Park to visit the family home.',
-      afterParagraph: 5,
+      center: [-87.86, 41.93],
+      zoom: 10.5,
+      lineColor: '#6B4423',
+      segmentId: 'settlement',
     },
   ],
   annotations: {
@@ -435,10 +445,14 @@ Many U.S. troops (including Mark) were then stationed in Japan. Although Allied 
   inlineMaps: [
     {
       id: 'army-training-camps',
-      locationIds: ['ftleonardwood', 'ftknox'],
+      locationIds: ['chicago', 'ftleonardwood', 'ftknox'],
       title: 'Army Training Camps',
-      description: 'Mark\'s U.S. Army training: Fort Leonard Wood, Missouri (basic training) and Fort Knox, Kentucky (radio communications and armor training).',
+      description: 'Mark\'s U.S. Army training route: from Chicago to Fort Leonard Wood, Missouri (basic training — "a very miserable eight weeks") and then to Fort Knox, Kentucky (radio communications training).',
       afterParagraph: 3,
+      center: [-88, 39.5],
+      zoom: 4.5,
+      lineColor: '#5C5346',
+      segmentId: 'military',
     },
     {
       id: 'korea-japan-service',
@@ -446,6 +460,10 @@ Many U.S. troops (including Mark) were then stationed in Japan. Although Allied 
       title: 'Service in Korea and Japan',
       description: 'Overseas service locations: a U.S. base in Korea (post-armistice, near Seoul) and two locations in Japan – Camp Drake outside Tokyo, and a U.S. post near Nagoya where Mark became a U.S. citizen.',
       afterParagraph: 6,
+      center: [133, 36],
+      zoom: 4,
+      lineColor: '#5C5346',
+      segmentId: 'military',
     },
   ],
   annotations: {
@@ -616,6 +634,10 @@ export const chapter6Context: ChapterContextData = {
       title: 'Atlantic Crossing Route',
       description: 'The journey by sea from Bremerhaven, Germany across the Atlantic Ocean to New York Harbor. This seven or eight day voyage was taken by postwar refugee ships like the General Muir.',
       afterParagraph: 0,
+      center: [-30, 49],
+      zoom: 2,
+      lineColor: '#2E5090',
+      segmentId: 'immigration',
     },
     {
       id: 'newyork-to-chicago',
@@ -623,6 +645,10 @@ export const chapter6Context: ChapterContextData = {
       title: 'From New York to Chicago',
       description: 'After arriving in New York, the family traveled west by train to reach Chicago, Illinois – the city where they would begin their new life in America, welcomed by the Slovenian community.',
       afterParagraph: 1,
+      center: [-80, 41],
+      zoom: 4.5,
+      lineColor: '#2E5090',
+      segmentId: 'immigration',
     },
   ],
   annotations: {
@@ -779,13 +805,21 @@ Securing a U.S. visa typically required a sponsor who would guarantee housing an
       title: 'Carinthia: DP Camp and Work Sites',
       description: 'This map shows Kellerberg (site of the D.P. camp where Mark\'s family lived) and Velden on Lake Wörthersee (where Mark worked at the British officers\' resort). Mark commuted from the camp to work in the British zone\'s resort town.',
       afterParagraph: 0,
+      center: [13.94, 46.62],
+      zoom: 10,
+      lineColor: '#8B4513',
+      segmentId: 'displacement',
     },
     {
       id: 'austria-to-america',
-      locationIds: ['kellerberg', 'newyork'],
+      locationIds: ['kellerberg', 'bremerhaven', 'newyork'],
       title: 'Journey from Austria to America',
-      description: 'The long journey from the Kellerberg D.P. camp in Austria to the United States. Mark\'s family traveled by train from Austria to a German port, then crossed the Atlantic by ship to New York – a common route for refugee resettlement.',
+      description: 'The long journey from the Kellerberg D.P. camp in Austria to the United States. Mark\'s family traveled by train to Bremerhaven, Germany, then crossed the Atlantic by ship to New York.',
       afterParagraph: 1,
+      center: [-20, 49],
+      zoom: 2.3,
+      lineColor: '#2E5090',
+      segmentId: 'immigration',
     },
   ],
   annotations: {
@@ -933,6 +967,10 @@ export const chapter3Context: ChapterContextData = {
       title: 'Axis Partition of Slovenia',
       description: 'After the April 1941 invasion, Yugoslavia was carved up by the Axis powers. Slovenia was split between Italy (which took Ljubljana and the southwest) and Nazi Germany (which annexed the northern areas including Maribor). Vizmarje fell under Italian occupation.',
       afterParagraph: 0,
+      center: [15.0, 46.3],
+      zoom: 7.5,
+      lineColor: '#5C5346',
+      segmentId: 'childhood',
     },
   ],
   annotations: {
@@ -1081,6 +1119,10 @@ export const chapter2Context: ChapterContextData = {
       title: 'Childhood Home Area',
       description: 'Vizmarje was a small village just 10 kilometers northwest of Ljubljana, where Mark lived from 1935-1946. He walked daily to school in nearby St. Vid.',
       afterParagraph: 0,
+      center: [14.5, 46.08],
+      zoom: 10.5,
+      lineColor: '#4A7C59',
+      segmentId: 'childhood',
     },
   ],
   annotations: {
@@ -1212,6 +1254,10 @@ Mark's grandfather specialized in horse gear (tack), traveling from farm to farm
       title: 'Family Origins in Slovenia',
       description: 'Mark was born in Ljubljana, the capital. His father came from Zagrad pri Škocjanu in the southeast, while his mother was from Ravne na Koroškem in the northeast near the Austrian border.',
       afterParagraph: 2,
+      center: [14.8, 46.2],
+      zoom: 7,
+      lineColor: '#C4541A',
+      segmentId: 'childhood',
     },
   ],
   annotations: {

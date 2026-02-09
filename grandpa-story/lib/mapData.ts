@@ -205,8 +205,8 @@ export const journeySegments: JourneySegment[] = [
     years: "1930-1946",
     color: "#4A7C59",
     focusRegion: {
-      center: [14.5, 46.1],
-      zoom: 9,
+      center: [14.5, 46.07],
+      zoom: 11.5,
       description: "Central Slovenia"
     }
   },

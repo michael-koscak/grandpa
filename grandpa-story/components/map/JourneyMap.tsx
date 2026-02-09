@@ -52,6 +52,8 @@ export default function JourneyMap() {
   const hasSubRegions = currentSegment?.subRegions && currentSegment.subRegions.length > 0;
   const currentSubRegion = hasSubRegions ? currentSegment!.subRegions![currentSubRegionIndex] : null;
 
+  const animationRef = useRef<number | null>(null);
+
   // Add journey path lines
   const addJourneyPaths = useCallback(() => {
     if (!map.current) return;
@@ -77,6 +79,7 @@ export default function JourneyMap() {
             },
           });
 
+          // Background dashed path
           map.current!.addLayer({
             id: `path-${segment.id}`,
             type: 'line',
@@ -90,6 +93,35 @@ export default function JourneyMap() {
               'line-width': 3,
               'line-opacity': 0.7,
               'line-dasharray': [2, 1],
+            },
+          });
+
+          // Animated highlight layer (starts hidden)
+          map.current!.addSource(`path-highlight-${segment.id}`, {
+            type: 'geojson',
+            data: {
+              type: 'Feature',
+              properties: {},
+              geometry: {
+                type: 'LineString',
+                coordinates: [coordinates[0]],
+              },
+            },
+          });
+
+          map.current!.addLayer({
+            id: `path-highlight-${segment.id}`,
+            type: 'line',
+            source: `path-highlight-${segment.id}`,
+            layout: {
+              'line-join': 'round',
+              'line-cap': 'round',
+              'visibility': 'none',
+            },
+            paint: {
+              'line-color': segment.color,
+              'line-width': 4,
+              'line-opacity': 0.9,
             },
           });
         }
@@ -147,6 +179,9 @@ export default function JourneyMap() {
     }
 
     return () => {
+      if (animationRef.current) {
+        cancelAnimationFrame(animationRef.current);
+      }
       markersRef.current.forEach(({ marker, root }) => {
         root.unmount();
         marker.remove();
@@ -157,12 +192,116 @@ export default function JourneyMap() {
     };
   }, [addJourneyPaths, initialSegment]);
 
+  // Animate path drawing for a segment
+  const animateSegmentPath = useCallback((segmentId: string) => {
+    if (!map.current) return;
+    
+    const segment = journeySegments.find(s => s.id === segmentId);
+    if (!segment) return;
+    
+    const coordinates = segment.locations
+      .map(id => getLocationById(id)?.coordinates)
+      .filter((c): c is [number, number] => c !== undefined);
+    
+    if (coordinates.length < 2) return;
+    
+    const highlightLayerId = `path-highlight-${segmentId}`;
+    const highlightSourceId = `path-highlight-${segmentId}`;
+    
+    try {
+      if (!map.current.getLayer(highlightLayerId)) return;
+      
+      map.current.setLayoutProperty(highlightLayerId, 'visibility', 'visible');
+      
+      // Cancel any existing animation
+      if (animationRef.current) {
+        cancelAnimationFrame(animationRef.current);
+      }
+      
+      const totalFrames = 80;
+      let currentFrame = 0;
+      
+      function interpolate(coords: [number, number][], t: number): [number, number][] {
+        if (t <= 0) return [coords[0]];
+        if (t >= 1) return coords;
+        
+        let totalDist = 0;
+        const segDists: number[] = [];
+        for (let i = 1; i < coords.length; i++) {
+          const dx = coords[i][0] - coords[i-1][0];
+          const dy = coords[i][1] - coords[i-1][1];
+          segDists.push(Math.sqrt(dx*dx + dy*dy));
+          totalDist += segDists[segDists.length - 1];
+        }
+        
+        const targetDist = t * totalDist;
+        let accumulated = 0;
+        const result: [number, number][] = [coords[0]];
+        
+        for (let i = 0; i < segDists.length; i++) {
+          if (accumulated + segDists[i] >= targetDist) {
+            const remaining = targetDist - accumulated;
+            const frac = remaining / segDists[i];
+            result.push([
+              coords[i][0] + frac * (coords[i+1][0] - coords[i][0]),
+              coords[i][1] + frac * (coords[i+1][1] - coords[i][1]),
+            ]);
+            return result;
+          }
+          accumulated += segDists[i];
+          result.push(coords[i+1]);
+        }
+        return coords;
+      }
+      
+      function animate() {
+        currentFrame++;
+        const t = Math.min(currentFrame / totalFrames, 1);
+        const easedT = 1 - Math.pow(1 - t, 3);
+        
+        const interpolated = interpolate(coordinates, easedT);
+        
+        try {
+          const source = map.current?.getSource(highlightSourceId) as mapboxgl.GeoJSONSource;
+          if (source) {
+            source.setData({
+              type: 'Feature',
+              properties: {},
+              geometry: { type: 'LineString', coordinates: interpolated },
+            });
+          }
+        } catch { /* ignore */ }
+        
+        if (t < 1) {
+          animationRef.current = requestAnimationFrame(animate);
+        }
+      }
+      
+      // Reset and start animation
+      const source = map.current.getSource(highlightSourceId) as mapboxgl.GeoJSONSource;
+      if (source) {
+        source.setData({
+          type: 'Feature',
+          properties: {},
+          geometry: { type: 'LineString', coordinates: [coordinates[0]] },
+        });
+      }
+      
+      setTimeout(() => {
+        animationRef.current = requestAnimationFrame(animate);
+      }, 400);
+      
+    } catch { /* ignore */ }
+  }, []);
+
   // Update path visibility and styling
   useEffect(() => {
     if (!map.current || !mapLoaded) return;
 
     journeySegments.forEach((segment, index) => {
       const layerId = `path-${segment.id}`;
+      const highlightLayerId = `path-highlight-${segment.id}`;
+      
       try {
         if (map.current!.getLayer(layerId)) {
           const isActive = activeSegments.has(segment.id);
@@ -171,8 +310,17 @@ export default function JourneyMap() {
           map.current!.setLayoutProperty(layerId, 'visibility', isActive ? 'visible' : 'none');
           
           if (isActive) {
-            map.current!.setPaintProperty(layerId, 'line-width', isCurrent ? 4 : 2);
-            map.current!.setPaintProperty(layerId, 'line-opacity', isCurrent ? 0.9 : (storyMode ? 0.2 : 0.5));
+            map.current!.setPaintProperty(layerId, 'line-width', isCurrent ? 2 : 2);
+            map.current!.setPaintProperty(layerId, 'line-opacity', isCurrent ? 0.3 : (storyMode ? 0.15 : 0.5));
+          }
+          
+          // Show/hide highlight layer
+          if (map.current!.getLayer(highlightLayerId)) {
+            map.current!.setLayoutProperty(
+              highlightLayerId, 
+              'visibility', 
+              isCurrent ? 'visible' : 'none'
+            );
           }
         }
       } catch {
@@ -314,7 +462,7 @@ export default function JourneyMap() {
     });
   }, []);
 
-  const handleFlyToSegment = (segmentId: string) => {
+  const handleFlyToSegment = (segmentId: string, subRegionId?: string) => {
     const segment = journeySegments.find((s) => s.id === segmentId);
     if (!segment) return;
 
@@ -327,15 +475,28 @@ export default function JourneyMap() {
     if (index !== -1) {
       setStoryMode(true);
       setCurrentSegmentIndex(index);
-      setCurrentSubRegionIndex(0);
       setShowStoryPanel(true);
       
-      // Fly to segment's focus region (or first sub-region if available)
-      if (segment.subRegions && segment.subRegions.length > 0) {
+      // If a specific sub-region was requested, navigate to it
+      if (subRegionId && segment.subRegions) {
+        const subIndex = segment.subRegions.findIndex(sr => sr.id === subRegionId);
+        if (subIndex !== -1) {
+          setCurrentSubRegionIndex(subIndex);
+          flyToSegmentRegion(segment, subIndex);
+        } else {
+          setCurrentSubRegionIndex(0);
+          flyToSegmentRegion(segment, 0);
+        }
+      } else if (segment.subRegions && segment.subRegions.length > 0) {
+        setCurrentSubRegionIndex(0);
         flyToSegmentRegion(segment, 0);
       } else {
+        setCurrentSubRegionIndex(0);
         flyToSegmentRegion(segment);
       }
+      
+      // Animate the path drawing
+      animateSegmentPath(segmentId);
     }
   };
 
@@ -353,6 +514,8 @@ export default function JourneyMap() {
       } else {
         flyToSegmentRegion(segment);
       }
+      
+      animateSegmentPath(segmentId);
     }
   };
 
@@ -384,6 +547,8 @@ export default function JourneyMap() {
     } else {
       flyToSegmentRegion(firstSegment);
     }
+    
+    animateSegmentPath(firstSegment.id);
   };
 
   const handleNextSegment = () => {
@@ -407,6 +572,9 @@ export default function JourneyMap() {
       } else {
         flyToSegmentRegion(nextSegment);
       }
+      
+      // Animate new segment path
+      animateSegmentPath(nextSegment.id);
     }
   };
 
@@ -433,6 +601,9 @@ export default function JourneyMap() {
         setCurrentSubRegionIndex(0);
         flyToSegmentRegion(prevSegment);
       }
+      
+      // Animate prev segment path
+      animateSegmentPath(prevSegment.id);
     }
   };
 
@@ -525,6 +696,7 @@ export default function JourneyMap() {
           onShowAll={handleShowAll}
           onStartGuidedJourney={handleStartGuidedJourney}
           currentStorySegmentId={storyMode ? currentSegment?.id : null}
+          currentSubRegionId={storyMode ? currentSubRegion?.id : null}
         />
       </div>
 

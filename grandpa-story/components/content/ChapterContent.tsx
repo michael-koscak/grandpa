@@ -168,6 +168,10 @@ export default function ChapterContent({
                     locationIds={map.locationIds}
                     title={map.title}
                     description={map.description}
+                    center={map.center}
+                    zoom={map.zoom}
+                    lineColor={map.lineColor}
+                    segmentId={map.segmentId}
                   />
                 ))}
               </div>
@@ -207,6 +211,10 @@ export default function ChapterContent({
                   locationIds={map.locationIds}
                   title={map.title}
                   description={map.description}
+                  center={map.center}
+                  zoom={map.zoom}
+                  lineColor={map.lineColor}
+                  segmentId={map.segmentId}
                 />
               ))}
             </div>
