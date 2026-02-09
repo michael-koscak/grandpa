@@ -1,0 +1,96 @@
+{
+    "overlays": [
+      {
+        "type": "photo",
+        "title": "Ljubljana 1920s Cityscape",
+        "placement": "\"I was born in the city of Ljubljana...\"",
+        "summary": "A panoramic black-and-white photo of Ljubljana along the Ljubljanica River in the 1920s.",
+        "link": "https://commons.wikimedia.org/wiki/File:Postcard_of_Ljubljana_view_1920.jpg"
+      },
+      {
+        "type": "photo",
+        "title": "Ravne na Koroškem 1920s Street Scene",
+        "placement": "\"She was born in Ravne na Koroskem...\"",
+        "summary": "A 1920s-era postcard view of Ravne na Koroškem, showing the town’s main street and surrounding landscape.",
+        "link": "https://commons.wikimedia.org/wiki/File:1920s_postcard_of_Ravne_na_Koro%C5%A1kem.jpg"
+      },
+      {
+        "type": "photo",
+        "title": "Slovenian Family in Traditional Dress",
+        "placement": "\"There were fourteen children in my father\'s family...\"",
+        "summary": "A postcard photograph of a Slovenian family in traditional village attire, circa early 1900s.",
+        "link": "https://commons.wikimedia.org/wiki/File:Postcard_of_Slovenian_family_in_traditional_dress.jpg"
+      },
+      {
+        "type": "map",
+        "title": "Zagrad pri Škocjanu – Location",
+        "placement": "\"My father was born on April 24, 1904, in the village of Zagrad pri Skocjanu.\"",
+        "summary": "Map showing Zagrad pri Škocjanu in southeastern Slovenia, near the border with Croatia.",
+        "link": "https://maps.google.com/?q=45.8833,15.0333"
+      },
+      {
+        "type": "map",
+        "title": "Ravne na Koroškem – Location",
+        "placement": "\"...northeastern part of Slovenia and close to the Austrian border.\"",
+        "summary": "Map showing Ravne na Koroškem in northern Slovenia, near the border with Austria.",
+        "link": "https://maps.google.com/?q=46.5444,14.9519"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "Austro-Hungarian Empire",
+        "placement": "\"At the time, this was part of the Austro-Hungarian empire.\"",
+        "summary": "The multi-ethnic empire (1867–1918) that ruled Slovene lands until its collapse at the end of World War I.",
+        "link": "https://en.wikipedia.org/wiki/Austria-Hungary"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "Kingdom of Yugoslavia",
+        "placement": "\"Slovenia was at that time a part of the kingdom ... Yugoslavia.\"",
+        "summary": "The monarchy uniting Slovenes, Croats, and Serbs—formed in 1918 (as the Kingdom of Serbs, Croats and Slovenes)—that lasted until World War II.",
+        "link": "https://en.wikipedia.org/wiki/Kingdom_of_Yugoslavia"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "Slovenian Language",
+        "placement": "\"Our native language was Slovenian, which is a Slavic language.\"",
+        "summary": "The South Slavic language spoken in Slovenia, distinct from Serbian or Croatian and used by about 2.5 million people.",
+        "link": "https://en.wikipedia.org/wiki/Slovene_language"
+      },
+      {
+        "type": "context",
+        "title": "World War I and Slovenia",
+        "placement": "\"This was during the 1st World War...\"",
+        "summary": "World War I (1914–1918) brought great hardship to Slovenian lands. Many Slovene men were conscripted into the Austro-Hungarian army, and civilian life was marked by shortages and loss.",
+        "link": "https://en.wikipedia.org/wiki/World_War_I"
+      },
+      {
+        "type": "context",
+        "title": "Apprenticeships in Trades",
+        "placement": "\"My father served his apprenticeship with his father...\"",
+        "summary": "A traditional system where young craftsmen learned a trade by working under an experienced master (often their father) for several years to gain skills and experience.",
+        "link": "https://en.wikipedia.org/wiki/Apprenticeship"
+      },
+      {
+        "type": "context",
+        "title": "Leather Crafting Industry",
+        "placement": "\"...hand-produce all types of leatherware, including suitcase, ladies bags, wallets...\"",
+        "summary": "Leather goods were handmade by skilled artisans. In the 1920s–30s, small Slovenian workshops produced items like luggage, handbags, wallets, and even sports balls using traditional techniques.",
+        "link": "http://museu.ms/museum/details/310/museum-of-the-leather-industry-in-slovenia"
+      },
+      {
+        "type": "context",
+        "title": "Yugoslav King\'s Guard",
+        "placement": "\"He was a cavalryman and served in a select unit of the king of Yugoslavia\'s guard.\"",
+        "summary": "An elite unit of the Royal Yugoslav Army tasked with protecting King Alexander I and the royal family. Serving in the King\'s Guard cavalry was a prestigious honor for a Yugoslav soldier.",
+        "link": "https://en.wikipedia.org/wiki/Royal_Yugoslav_Army"
+      },
+      {
+        "type": "context",
+        "title": "Tuberculosis in the 1920s",
+        "placement": "\"He caught a bad cold that eventually turned into tuberculosis, and he died as a young man at the age of 23.\"",
+        "summary": "In the early 20th century, tuberculosis (TB) was a common and often fatal disease. Before antibiotics, many young adults succumbed to TB infections.",
+        "link": "https://en.wikipedia.org/wiki/Tuberculosis"
+      }
+    ]
+  }
+  

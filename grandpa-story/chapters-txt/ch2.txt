@@ -1,0 +1,120 @@
+[
+  {
+    "type": "photo",
+    "title": "Village Church and School, Slovenia (circa 1930)",
+    "placement": "The school also provided about two hours of religious training each week, given by the parish priests.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Petrov%C4%8De.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Petrov%C4%8De.jpg",
+    "credit": "Wikimedia Commons",
+    "year": "circa 1930"
+  },
+  {
+    "type": "photo",
+    "title": "Bata Shoe Factory in Borovo (1938)",
+    "placement": "My father started his own business in Vizmarje, producing leather goods.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Ba%C5%A5a_factory,_Borovo,_Yugoslavia,_26_Sept_1938._%284237252612%29.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ba%C5%A5a_factory,_Borovo,_Yugoslavia,_26_Sept_1938._%284237252612%29.jpg",
+    "credit": "Wikimedia Commons",
+    "year": "1938"
+  },
+  {
+    "type": "photo",
+    "title": "Rural Road and Farmhouse, Prekmurje (1935)",
+    "placement": "I remember moving into our new home. I liked the area and the friends that I made there.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Cesta_in_hi%C5%A1a_v_okolici_Hotize_1935.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cesta_in_hi%C5%A1a_v_okolici_Hotize_1935.jpg",
+    "credit": "Wikimedia Commons",
+    "year": "1935"
+  },
+  {
+    "type": "context",
+    "title": "Daily Life in a Slovenian Village (1930s)",
+    "placement": "About 1935, our family moved to a village of Vizmarje...",
+    "summary": "During the 1930s, most Slovenians lived in rural villages, relying on small-scale farming and family labor. Across the Kingdom of Yugoslavia, about three-quarters of the population worked in agriculture, usually as subsistence peasants:contentReference[oaicite:0]{index=0}. Slovenian villagers typically owned modest plots of land and often supplemented farm income with seasonal work or traditional crafts. Community life was close-knit and centered around the local church and family. Education was more accessible in Slovenia than in other parts of Yugoslavia – fewer than 10% of Slovenes were illiterate (compared to over 80% in some regions):contentReference[oaicite:1]{index=1}. Even so, many children in remote areas still had limited schooling. Life in a 1930s Slovene village was humble and hard-working, but marked by strong community ties and rich cultural traditions.",
+    "link": "https://en.wikipedia.org/wiki/Kingdom_of_Yugoslavia"
+  },
+  {
+    "type": "context",
+    "title": "Craftsmen and Small Businesses in Interwar Yugoslavia",
+    "placement": "He was a very accomplished craftsman in his trade.",
+    "summary": "In the interwar Kingdom of Yugoslavia, industrialization was limited, and many goods were made by skilled artisans in small workshops. Manufacturing was concentrated in a few cities, while elsewhere craftsmen – such as shoemakers, tailors, leatherworkers – produced for local markets:contentReference[oaicite:2]{index=2}. Slovenia was relatively industrialized for the era (nearly half of new factories opened in Yugoslavia between 1919 and 1938 were in Slovenian lands):contentReference[oaicite:3]{index=3}, but much of the economy still depended on cottage industries. Master craftsmen often took on apprentices who lived with the family and learned the trade by working alongside the master. These apprenticeships kept traditional skills alive. A family-run leather goods workshop, for example, would handcraft items like shoes, belts, or bags, with the master’s expertise passed down to the next generation. Such small businesses and tradesmen were the backbone of the local economy before large-scale factories became common.",
+    "link": "https://en.wikipedia.org/wiki/Kingdom_of_Yugoslavia"
+  },
+  {
+    "type": "context",
+    "title": "Public School and Religious Instruction in the 1930s",
+    "placement": "I started school in 1937 in St. Vid. I walked to school...",
+    "summary": "Education in the 1930s Kingdom of Yugoslavia was organized as a public system, but opportunities varied by region. A 1929 law established compulsory public schooling – eight years of primary education (split into 4 lower and 4 upper years) – free for all children. In practice, rural areas often lagged behind cities in access. Slovenia enjoyed a high literacy rate and a well-attended school system for the time:contentReference[oaicite:5]{index=5}. Schools taught a standard curriculum, and importantly, they also included religious education. Around two hours per week were typically set aside for faith instruction in public schools. In predominantly Catholic villages like St. Vid, parish priests would come to the school to teach catechism and religious studies. This ensured children received moral and spiritual lessons alongside academic subjects. Such blending of public and religious education was common until the mid-20th century, reinforcing the influence of the Church in community life.",
+    "link": "https://en.wikipedia.org/wiki/Kingdom_of_Yugoslavia"
+  },
+  {
+    "type": "annotation",
+    "term": "Vizmarje",
+    "placement": "moved to a village of Vizmarje",
+    "summary": "Vizmarje (Vižmarje) is a small settlement in the northwestern part of Ljubljana, Slovenia, historically a separate village.",
+    "link": "https://en.wikipedia.org/wiki/Vi%C5%BEmarje"
+  },
+  {
+    "type": "annotation",
+    "term": "St. Vid",
+    "placement": "school in 1937 in St. Vid",
+    "summary": "St. Vid (Šentvid) is a district of Ljubljana in Slovenia. Formerly an independent village in the Upper Carniola region, it was incorporated into the city in 1974.",
+    "link": "https://en.wikipedia.org/wiki/%C5%A0entvid_(Ljubljana)"
+  },
+  {
+    "type": "annotation",
+    "term": "Ljubljana",
+    "placement": "10 kilometers from Ljubljana",
+    "summary": "Ljubljana is the capital and largest city of Slovenia.",
+    "link": "https://en.wikipedia.org/wiki/Ljubljana"
+  },
+  {
+    "type": "annotation",
+    "term": "apprenticeship",
+    "placement": "a couple of apprentices who stayed with him to learn the trade",
+    "summary": "An apprenticeship is a system of training a new practitioner of a trade through on-the-job experience under a skilled master.",
+    "link": "https://simple.wikipedia.org/wiki/Apprenticeship"
+  },
+  {
+    "type": "annotation",
+    "term": "leather goods",
+    "placement": "producing leather goods",
+    "summary": "Leather goods are products made from leather (animal hides), such as footwear, belts, bags, and other accessories.",
+    "link": "https://en.wikipedia.org/wiki/Leather"
+  },
+  {
+    "type": "annotation",
+    "term": "public school",
+    "placement": "It was a public school.",
+    "summary": "A public school is a school operated by the government. In 1930s Yugoslavia, public primary education was state-funded, free, and made compulsory by law.",
+    "link": "https://en.wikipedia.org/wiki/Education_in_the_Kingdom_of_Yugoslavia"
+  },
+  {
+    "type": "annotation",
+    "term": "religious training",
+    "placement": "religious training each week, given by the parish priests",
+    "summary": "Religious training refers to faith-based education (such as Catholic catechism). In 1930s Yugoslav schools, about two hours per week were set aside for religious instruction by clergy.",
+    "link": "https://en.wikipedia.org/wiki/Catechism"
+  },
+  {
+    "type": "annotation",
+    "term": "Egypt (British colony)",
+    "placement": "Egypt was a British colony.",
+    "summary": "Egypt was under British colonial rule in the late 19th and early 20th centuries (effectively from 1882 until 1956).",
+    "link": "https://en.wikipedia.org/wiki/History_of_Egypt_under_British_rule"
+  },
+  {
+    "type": "annotation",
+    "term": "Cairo",
+    "placement": "British official in Cairo, Egypt",
+    "summary": "Cairo is the capital of Egypt and one of the largest cities in Africa.",
+    "link": "https://en.wikipedia.org/wiki/Cairo"
+  },
+  {
+    "type": "annotation",
+    "term": "Franklin Park",
+    "placement": "visited us in Franklin Park",
+    "summary": "Franklin Park is a village in Cook County, Illinois, in the United States. It is a suburb of Chicago.",
+    "link": "https://simple.wikipedia.org/wiki/Franklin_Park,_Illinois"
+  }
+]
