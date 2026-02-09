@@ -10,6 +10,10 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Force fresh build - disable all caching temporarily
+  generateBuildId: async () => {
+    return `build-${Date.now()}`;
+  },
 };
 
 export default nextConfig;

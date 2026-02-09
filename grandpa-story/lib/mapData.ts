@@ -229,22 +229,29 @@ export const journeySegments: JourneySegment[] = [
     years: "1951",
     color: "#2E5090",
     focusRegion: {
-      center: [-74.0, 40.7],
-      zoom: 10,
-      description: "New York Harbor — Arrival in America"
+      center: [-30, 47],
+      zoom: 3,
+      description: "Across the Atlantic to a New Life"
     },
     subRegions: [
       {
         id: "departure",
         name: "Departure from Europe",
-        center: [8.5, 53.5],
-        zoom: 8,
-        locations: ["bremerhaven"]
+        center: [11, 49],
+        zoom: 5.5,
+        locations: ["velden", "bremerhaven"]
+      },
+      {
+        id: "crossing",
+        name: "Atlantic Crossing",
+        center: [-30, 47],
+        zoom: 3,
+        locations: ["bremerhaven", "newyork"]
       },
       {
         id: "arrival",
-        name: "Arrival in America",
-        center: [-76, 40],
+        name: "Arrival & First Home",
+        center: [-80, 41],
         zoom: 5,
         locations: ["newyork", "chicago"]
       }
@@ -257,9 +264,9 @@ export const journeySegments: JourneySegment[] = [
     years: "1953-1955",
     color: "#5C5346",
     focusRegion: {
-      center: [133, 36],
-      zoom: 4.5,
-      description: "Korea & Japan — Overseas Service"
+      center: [-88, 39],
+      zoom: 5,
+      description: "Drafted — Training in the Heartland"
     },
     subRegions: [
       {
@@ -270,11 +277,25 @@ export const journeySegments: JourneySegment[] = [
         locations: ["chicago", "ftleonardwood", "ftknox"]
       },
       {
-        id: "overseas",
-        name: "Korea & Japan",
-        center: [133, 36],
-        zoom: 4.5,
-        locations: ["korea", "tokyo", "nagoya"]
+        id: "korea",
+        name: "Five Months in Korea",
+        center: [127, 37.5],
+        zoom: 7,
+        locations: ["korea"]
+      },
+      {
+        id: "japan",
+        name: "Camp Drake & Nagoya, Japan",
+        center: [137, 36],
+        zoom: 5.5,
+        locations: ["tokyo", "nagoya"]
+      },
+      {
+        id: "return",
+        name: "Return to Chicago",
+        center: [-87.8, 41.9],
+        zoom: 10,
+        locations: ["chicago"]
       }
     ]
   },

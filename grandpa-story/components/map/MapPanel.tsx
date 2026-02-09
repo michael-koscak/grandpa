@@ -11,6 +11,7 @@ interface MapPanelProps {
   onFlyToSegment: (segmentId: string) => void;
   onShowAll: () => void;
   onStartGuidedJourney?: () => void;
+  currentStorySegmentId?: string | null;
 }
 
 const locationTypeLabels: Record<LocationType, string> = {
@@ -31,6 +32,7 @@ export default function MapPanel({
   onFlyToSegment,
   onShowAll,
   onStartGuidedJourney,
+  currentStorySegmentId,
 }: MapPanelProps) {
   const [isCollapsed, setIsCollapsed] = useState(false);
   const [showLegend, setShowLegend] = useState(false);
@@ -42,7 +44,7 @@ export default function MapPanel({
         hidden md:block absolute top-4 left-4 z-10
         bg-paper/95 backdrop-blur-sm rounded-xl shadow-xl border border-context-border
         transition-all duration-300 overflow-hidden
-        ${isCollapsed ? 'w-12' : 'w-80'}
+        ${isCollapsed ? 'w-12' : 'w-72'}
       `}>
         {/* Header */}
         <div className="flex items-center justify-between p-4 border-b border-context-border">
@@ -84,50 +86,52 @@ export default function MapPanel({
 
         {!isCollapsed && (
           <>
-            {/* Journey Segments */}
-            <div className="p-4 space-y-2 max-h-[50vh] overflow-y-auto">
-              {journeySegments.map((segment) => (
-                <div key={segment.id} className="flex items-center gap-2">
+            {/* Journey Segments - each is a single clickable button */}
+            <div className="p-3 space-y-1 max-h-[50vh] overflow-y-auto">
+              {journeySegments.map((segment) => {
+                const isCurrent = currentStorySegmentId === segment.id;
+                return (
                   <button
-                    onClick={() => onToggleSegment(segment.id)}
+                    key={segment.id}
+                    onClick={() => onFlyToSegment(segment.id)}
                     className={`
-                      flex-1 flex items-center gap-3 p-3 rounded-lg text-left transition-all
-                      ${activeSegments.has(segment.id) 
-                        ? 'bg-paper-dark border border-context-border' 
-                        : 'opacity-50 hover:opacity-75'
+                      w-full flex items-center gap-3 px-3 py-3 rounded-lg text-left transition-all
+                      ${isCurrent 
+                        ? 'bg-paper-dark ring-1 ring-accent/40 shadow-sm' 
+                        : 'hover:bg-paper-dark/60'
                       }
                     `}
                   >
                     <div 
-                      className="w-4 h-4 rounded-full flex-shrink-0 border-2 border-white shadow-sm"
+                      className={`w-3.5 h-3.5 rounded-full flex-shrink-0 border-2 transition-all ${
+                        isCurrent ? 'border-white shadow-md scale-110' : 'border-white/70 shadow-sm'
+                      }`}
                       style={{ backgroundColor: segment.color }}
                     />
                     <div className="flex-1 min-w-0">
-                      <p className="text-sm font-[family-name:var(--font-source-sans)] font-medium text-ink truncate">
+                      <p className={`text-sm font-[family-name:var(--font-source-sans)] font-medium truncate transition-colors ${
+                        isCurrent ? 'text-ink' : 'text-ink-light'
+                      }`}>
                         {segment.name}
                       </p>
                       <p className="text-xs text-ink-muted">
                         {segment.years}
                       </p>
                     </div>
-                  </button>
-                  <button
-                    onClick={() => onFlyToSegment(segment.id)}
-                    className="p-2 text-ink-muted hover:text-accent transition-colors"
-                    title="Fly to location"
-                  >
-                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    {/* Arrow indicator */}
+                    <svg className={`w-4 h-4 flex-shrink-0 transition-colors ${
+                      isCurrent ? 'text-accent' : 'text-ink-muted/40'
+                    }`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                   </button>
-                </div>
-              ))}
+                );
+              })}
             </div>
 
             {/* Start Guided Journey */}
             {onStartGuidedJourney && (
-              <div className="px-4 pt-4">
+              <div className="px-3 pt-3">
                 <button
                   onClick={onStartGuidedJourney}
                   className="w-full py-3 px-4 bg-accent text-paper rounded-lg font-[family-name:var(--font-source-sans)] font-medium text-sm hover:bg-accent-dark transition-colors flex items-center justify-center gap-2"
@@ -142,7 +146,7 @@ export default function MapPanel({
             )}
 
             {/* Actions */}
-            <div className="p-4 border-t border-context-border flex gap-2 mt-2">
+            <div className="p-3 border-t border-context-border flex gap-2 mt-2">
               <button
                 onClick={onShowAll}
                 className="flex-1 py-2 px-3 text-sm font-[family-name:var(--font-source-sans)] font-medium text-accent hover:bg-accent/10 rounded-lg transition-colors"
@@ -185,6 +189,7 @@ export default function MapPanel({
         onToggleSegment={onToggleSegment}
         onFlyToSegment={onFlyToSegment}
         onShowAll={onShowAll}
+        currentStorySegmentId={currentStorySegmentId}
       />
     </>
   );
@@ -192,9 +197,9 @@ export default function MapPanel({
 
 function MobilePanel({ 
   activeSegments, 
-  onToggleSegment, 
   onFlyToSegment,
-  onShowAll 
+  onShowAll,
+  currentStorySegmentId,
 }: MapPanelProps) {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -226,31 +231,36 @@ function MobilePanel({
         </div>
       </button>
 
-      {/* Quick Actions */}
+      {/* Quick Actions - horizontally scrollable pills */}
       {!isExpanded && (
         <div className="px-4 pb-4 flex gap-2 overflow-x-auto">
-          {journeySegments.map((segment) => (
-            <button
-              key={segment.id}
-              onClick={() => onFlyToSegment(segment.id)}
-              className={`
-                flex-shrink-0 flex items-center gap-2 px-3 py-2 rounded-full
-                border transition-all
-                ${activeSegments.has(segment.id)
-                  ? 'border-context-border bg-paper-dark'
-                  : 'border-transparent opacity-60'
-                }
-              `}
-            >
-              <div 
-                className="w-3 h-3 rounded-full"
-                style={{ backgroundColor: segment.color }}
-              />
-              <span className="text-xs font-[family-name:var(--font-source-sans)] font-medium text-ink whitespace-nowrap">
-                {segment.name}
-              </span>
-            </button>
-          ))}
+          {journeySegments.map((segment) => {
+            const isCurrent = currentStorySegmentId === segment.id;
+            return (
+              <button
+                key={segment.id}
+                onClick={() => onFlyToSegment(segment.id)}
+                className={`
+                  flex-shrink-0 flex items-center gap-2 px-3 py-2 rounded-full
+                  border transition-all
+                  ${isCurrent
+                    ? 'border-accent/40 bg-paper-dark shadow-sm'
+                    : activeSegments.has(segment.id)
+                      ? 'border-context-border bg-paper-dark'
+                      : 'border-transparent opacity-60'
+                  }
+                `}
+              >
+                <div 
+                  className="w-3 h-3 rounded-full"
+                  style={{ backgroundColor: segment.color }}
+                />
+                <span className="text-xs font-[family-name:var(--font-source-sans)] font-medium text-ink whitespace-nowrap">
+                  {segment.name}
+                </span>
+              </button>
+            );
+          })}
         </div>
       )}
 
@@ -272,54 +282,46 @@ function MobilePanel({
             </button>
           </div>
 
-          <div className="space-y-2">
-            {journeySegments.map((segment) => (
-              <button
-                key={segment.id}
-                onClick={() => {
-                  onFlyToSegment(segment.id);
-                  setIsExpanded(false);
-                }}
-                className={`
-                  w-full flex items-center gap-3 p-3 rounded-lg text-left transition-all
-                  ${activeSegments.has(segment.id)
-                    ? 'bg-paper-dark border border-context-border'
-                    : 'opacity-50'
-                  }
-                `}
-              >
-                <div 
-                  className="w-4 h-4 rounded-full flex-shrink-0"
-                  style={{ backgroundColor: segment.color }}
-                />
-                <div className="flex-1">
-                  <p className="text-sm font-[family-name:var(--font-source-sans)] font-medium text-ink">
-                    {segment.name}
-                  </p>
-                  <p className="text-xs text-ink-muted">
-                    {segment.years}
-                  </p>
-                </div>
+          <div className="space-y-1">
+            {journeySegments.map((segment) => {
+              const isCurrent = currentStorySegmentId === segment.id;
+              return (
                 <button
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    onToggleSegment(segment.id);
+                  key={segment.id}
+                  onClick={() => {
+                    onFlyToSegment(segment.id);
+                    setIsExpanded(false);
                   }}
-                  className={`p-1 rounded ${activeSegments.has(segment.id) ? 'text-accent' : 'text-ink-muted'}`}
+                  className={`
+                    w-full flex items-center gap-3 p-3 rounded-lg text-left transition-all
+                    ${isCurrent
+                      ? 'bg-paper-dark ring-1 ring-accent/40 shadow-sm'
+                      : 'hover:bg-paper-dark/60'
+                    }
+                  `}
                 >
-                  {activeSegments.has(segment.id) ? (
-                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-                    </svg>
-                  ) : (
-                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21" />
-                    </svg>
-                  )}
+                  <div 
+                    className="w-4 h-4 rounded-full flex-shrink-0"
+                    style={{ backgroundColor: segment.color }}
+                  />
+                  <div className="flex-1">
+                    <p className={`text-sm font-[family-name:var(--font-source-sans)] font-medium ${
+                      isCurrent ? 'text-ink' : 'text-ink-light'
+                    }`}>
+                      {segment.name}
+                    </p>
+                    <p className="text-xs text-ink-muted">
+                      {segment.years}
+                    </p>
+                  </div>
+                  <svg className={`w-4 h-4 flex-shrink-0 ${
+                    isCurrent ? 'text-accent' : 'text-ink-muted/40'
+                  }`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
                 </button>
-              </button>
-            ))}
+              );
+            })}
           </div>
         </div>
       )}

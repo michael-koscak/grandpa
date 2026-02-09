@@ -1,5 +1,10 @@
 // Narrative content for each journey segment - provides context on the map
 
+export interface SubRegionNarrative {
+  title: string;
+  details: string;
+}
+
 export interface JourneyNarrative {
   id: string;
   title: string;
@@ -12,6 +17,7 @@ export interface JourneyNarrative {
     slug: string;
     title: string;
   };
+  subRegionNarratives?: Record<string, SubRegionNarrative>;
 }
 
 export const journeyNarratives: Record<string, JourneyNarrative> = {
@@ -68,6 +74,20 @@ export const journeyNarratives: Record<string, JourneyNarrative> = {
       slug: 'journey-to-america',
       title: 'Journey to America',
     },
+    subRegionNarratives: {
+      departure: {
+        title: 'Departure from Europe',
+        details: 'The family traveled from Austria to Bremerhaven, Germany — one of postwar Europe\'s busiest emigration ports. Here they boarded the USS General Muir with several hundred other displaced persons.',
+      },
+      crossing: {
+        title: 'Atlantic Crossing',
+        details: 'Seven or eight days at sea on a Navy troop carrier, through a bad storm that left most passengers seasick. Mark translated the ship commander\'s announcements for the other passengers.',
+      },
+      arrival: {
+        title: 'Arrival & First Home',
+        details: 'They arrived in New York Harbor, "awed by the size of the city, the tall buildings." The Salvation Army greeted them with coffee and doughnuts, then Catholic Relief put them on a train to Chicago.',
+      },
+    },
   },
   military: {
     id: 'military',
@@ -86,6 +106,24 @@ export const journeyNarratives: Record<string, JourneyNarrative> = {
       chapter: 7,
       slug: 'building-a-new-life',
       title: 'Building a New Life',
+    },
+    subRegionNarratives: {
+      training: {
+        title: 'Basic & Radio Training',
+        details: 'Mark did basic training at Fort Leonard Wood, Missouri ("a very miserable eight weeks"), then radio communications training at Fort Knox, Kentucky.',
+      },
+      korea: {
+        title: 'Five Months in Korea',
+        details: 'His unit was split alphabetically — A-J to Germany, K-Z to Korea. Mark spent five months at an anti-aircraft battalion on a U.S. Air Force base north of Seoul.',
+      },
+      japan: {
+        title: 'Camp Drake & Nagoya',
+        details: 'Transferred to Camp Drake near Tokyo, Mark became a U.S. citizen and won a car in a raffle. He later moved to Nagoya before shipping back to the States.',
+      },
+      return: {
+        title: 'Return to Chicago',
+        details: 'In September 1955, Mark was shipped back to the United States and released from the Army, returning to Chicago to begin civilian life.',
+      },
     },
   },
   settlement: {

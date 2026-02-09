@@ -8,6 +8,7 @@ interface StoryPanelProps {
   narrative: JourneyNarrative | null;
   segment: JourneySegment | null;
   subRegionName?: string;
+  subRegionId?: string;
   isVisible: boolean;
   onClose: () => void;
   onNextSegment?: () => void;
@@ -22,6 +23,7 @@ export default function StoryPanel({
   narrative,
   segment,
   subRegionName,
+  subRegionId,
   isVisible,
   onClose,
   onNextSegment,
@@ -32,6 +34,11 @@ export default function StoryPanel({
   totalSteps,
 }: StoryPanelProps) {
   if (!isVisible || !narrative || !segment) return null;
+
+  // Get sub-region-specific narrative if available
+  const subNarrative = subRegionId && narrative.subRegionNarratives?.[subRegionId];
+  const displayTitle = subNarrative ? subNarrative.title : subRegionName || segment.focusRegion.description;
+  const displayDetails = subNarrative ? subNarrative.details : narrative.details;
 
   return (
     <div className="absolute bottom-4 left-4 right-4 md:left-auto md:right-4 md:bottom-4 md:w-96 z-20">
@@ -77,7 +84,7 @@ export default function StoryPanel({
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
             </svg>
             <span className="font-[family-name:var(--font-playfair)] text-lg font-semibold text-ink">
-              {subRegionName || segment.focusRegion.description}
+              {displayTitle}
             </span>
           </div>
         </div>
@@ -91,32 +98,35 @@ export default function StoryPanel({
             {narrative.summary}
           </p>
           
-          <p className="text-sm text-ink-light font-[family-name:var(--font-source-serif)] leading-relaxed mb-4 line-clamp-4">
-            {narrative.details}
+          {/* Sub-region specific details or full narrative */}
+          <p className="text-sm text-ink-light font-[family-name:var(--font-source-serif)] leading-relaxed mb-4">
+            {displayDetails}
           </p>
 
-          {/* Key Events - Compact */}
-          <div className="mb-4 p-3 bg-paper-dark/50 rounded-lg">
-            <h4 className="text-xs font-[family-name:var(--font-source-sans)] font-semibold text-ink-muted uppercase tracking-wider mb-2">
-              Key Events
-            </h4>
-            <ul className="space-y-1">
-              {narrative.keyEvents.slice(0, 3).map((event, i) => (
-                <li 
-                  key={i}
-                  className="text-xs text-ink-light font-[family-name:var(--font-source-sans)] flex items-start gap-2"
-                >
-                  <span style={{ color: segment.color }}>•</span>
-                  {event}
-                </li>
-              ))}
-              {narrative.keyEvents.length > 3 && (
-                <li className="text-xs text-ink-muted font-[family-name:var(--font-source-sans)]">
-                  +{narrative.keyEvents.length - 3} more...
-                </li>
-              )}
-            </ul>
-          </div>
+          {/* Key Events - Compact (only show when not on a sub-region or segment has no sub-regions) */}
+          {!subNarrative && (
+            <div className="mb-4 p-3 bg-paper-dark/50 rounded-lg">
+              <h4 className="text-xs font-[family-name:var(--font-source-sans)] font-semibold text-ink-muted uppercase tracking-wider mb-2">
+                Key Events
+              </h4>
+              <ul className="space-y-1">
+                {narrative.keyEvents.slice(0, 3).map((event, i) => (
+                  <li 
+                    key={i}
+                    className="text-xs text-ink-light font-[family-name:var(--font-source-sans)] flex items-start gap-2"
+                  >
+                    <span style={{ color: segment.color }}>•</span>
+                    {event}
+                  </li>
+                ))}
+                {narrative.keyEvents.length > 3 && (
+                  <li className="text-xs text-ink-muted font-[family-name:var(--font-source-sans)]">
+                    +{narrative.keyEvents.length - 3} more...
+                  </li>
+                )}
+              </ul>
+            </div>
+          )}
 
           {/* Read Chapter Link */}
           <Link
@@ -154,11 +164,11 @@ export default function StoryPanel({
                 {Array.from({ length: totalSteps }).map((_, i) => (
                   <div
                     key={i}
-                    className={`h-1 rounded-full transition-all ${
+                    className={`h-1.5 rounded-full transition-all ${
                       i + 1 === currentStep 
-                        ? 'w-4 bg-accent' 
+                        ? 'w-5 bg-accent' 
                         : i + 1 < currentStep 
-                          ? 'w-2 bg-accent/50'
+                          ? 'w-2.5 bg-accent/50'
                           : 'w-2 bg-ink-muted/30'
                     }`}
                   />

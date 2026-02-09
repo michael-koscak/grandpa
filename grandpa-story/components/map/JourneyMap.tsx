@@ -524,6 +524,7 @@ export default function JourneyMap() {
           onFlyToSegment={handleFlyToSegment}
           onShowAll={handleShowAll}
           onStartGuidedJourney={handleStartGuidedJourney}
+          currentStorySegmentId={storyMode ? currentSegment?.id : null}
         />
       </div>
 
@@ -532,6 +533,7 @@ export default function JourneyMap() {
         narrative={currentNarrative}
         segment={currentSegment}
         subRegionName={getCurrentRegionDescription()}
+        subRegionId={currentSubRegion?.id}
         isVisible={showStoryPanel}
         onClose={handleCloseStoryPanel}
         onNextSegment={handleNextSegment}
