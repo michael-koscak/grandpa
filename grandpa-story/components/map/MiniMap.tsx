@@ -78,66 +78,67 @@ export default function MiniMap({
         attributionControl: false,
       });
 
-    map.current.on('load', () => {
-      setMapLoaded(true);
+      map.current.on('load', () => {
+        setMapLoaded(true);
 
-      // Add markers
-      resolvedLocations.forEach(location => {
-        const color = locationColors[location.type];
-        
-        // Create simple marker element
-        const el = document.createElement('div');
-        el.style.width = '16px';
-        el.style.height = '16px';
-        el.innerHTML = `
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-            <path
-              d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"
-              fill="${color}"
-              stroke="#fff"
-              stroke-width="1.5"
-            />
-            <circle cx="12" cy="9" r="3" fill="#fff" opacity="0.9" />
-          </svg>
-        `;
+        // Add markers
+        resolvedLocations.forEach(location => {
+          const color = locationColors[location.type];
+          
+          // Create simple marker element
+          const el = document.createElement('div');
+          el.style.width = '16px';
+          el.style.height = '16px';
+          el.innerHTML = `
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"
+                fill="${color}"
+                stroke="#fff"
+                stroke-width="1.5"
+              />
+              <circle cx="12" cy="9" r="3" fill="#fff" opacity="0.9" />
+            </svg>
+          `;
 
-        new mapboxgl.Marker({ element: el, anchor: 'bottom' })
-          .setLngLat(location.coordinates)
-          .addTo(map.current!);
-      });
+          new mapboxgl.Marker({ element: el, anchor: 'bottom' })
+            .setLngLat(location.coordinates)
+            .addTo(map.current!);
+        });
 
-      // If multiple locations, draw line between them
-      if (resolvedLocations.length > 1) {
-        const lineCoords = resolvedLocations.map(l => l.coordinates);
-        
-        map.current!.addSource('mini-path', {
-          type: 'geojson',
-          data: {
-            type: 'Feature',
-            properties: {},
-            geometry: {
-              type: 'LineString',
-              coordinates: lineCoords,
+        // If multiple locations, draw line between them
+        if (resolvedLocations.length > 1) {
+          const lineCoords = resolvedLocations.map(l => l.coordinates);
+          
+          map.current!.addSource('mini-path', {
+            type: 'geojson',
+            data: {
+              type: 'Feature',
+              properties: {},
+              geometry: {
+                type: 'LineString',
+                coordinates: lineCoords,
+              },
             },
-          },
-        });
+          });
 
-        map.current!.addLayer({
-          id: 'mini-path',
-          type: 'line',
-          source: 'mini-path',
-          layout: {
-            'line-join': 'round',
-            'line-cap': 'round',
-          },
-          paint: {
-            'line-color': '#8B4513',
-            'line-width': 2,
-            'line-opacity': 0.6,
-            'line-dasharray': [2, 1],
-          },
-        });
-      }
+          map.current!.addLayer({
+            id: 'mini-path',
+            type: 'line',
+            source: 'mini-path',
+            layout: {
+              'line-join': 'round',
+              'line-cap': 'round',
+            },
+            paint: {
+              'line-color': '#8B4513',
+              'line-width': 2,
+              'line-opacity': 0.6,
+              'line-dasharray': [2, 1],
+            },
+          });
+        }
+      });
     } catch (error) {
       console.error('Error initializing MiniMap:', error);
       setMapLoaded(false);
