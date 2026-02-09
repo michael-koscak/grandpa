@@ -132,6 +132,165 @@ Life in the camps was difficult but provided safety and basic necessities. Refug
   },
 };
 
+// Chapter 3: War and Occupation (1939-1945)
+export const chapter3Context: ChapterContextData = {
+  contextCards: [
+    {
+      id: 'axis-invasion-1941',
+      title: 'Axis Invasion and Partition of Yugoslavia (April 1941)',
+      subtitle: 'Spring 1941',
+      content: `On April 6, 1941, the Axis powers (led by Germany and Italy) launched a massive invasion of Yugoslavia. The Yugoslav army crumbled within days. The country was then dismembered by the victors: Slovenia was partitioned – Fascist Italy annexed the southwest (including Ljubljana) while Nazi Germany took over the northern regions – and other parts of Yugoslavia were occupied by Hungary and Bulgaria or made into a puppet state (Croatia). The Yugoslav royal government fled into exile as Axis forces imposed their occupation.`,
+      type: 'history',
+      sources: [
+        { name: 'US Holocaust Memorial Museum', url: 'https://encyclopedia.ushmm.org/content/en/article/balkan-campaign-spring-1941' }
+      ],
+      afterParagraph: 0,
+    },
+    {
+      id: 'italian-german-occupation',
+      title: 'Italian vs. German Occupation of Slovenia',
+      subtitle: 'Occupation Zones 1941-1943',
+      content: `After the April 1941 invasion, Italy occupied central Slovenia (establishing the Province of Ljubljana) while Germany annexed northern Slovenia. Italian rule was initially less harsh – many Slovene refugees fled German-held areas into Italian zone – but it grew more brutal once resistance began. By 1942–43, Italian authorities in Slovenia were deporting thousands of civilians to concentration camps and conducting reprisals comparable to the Germans' tactics. In September 1943, Italy surrendered to the Allies, and Nazi Germany quickly took over the Italian-occupied territory in Slovenia, extending German occupation to the whole region.`,
+      type: 'history',
+      sources: [
+        { name: 'Wikipedia - Province of Ljubljana', url: 'https://en.wikipedia.org/wiki/Province_of_Ljubljana' }
+      ],
+      afterParagraph: 0,
+    },
+    {
+      id: 'partisans-tito',
+      title: 'Yugoslav Partisans and Allied Support for Tito',
+      subtitle: 'Resistance Movement',
+      content: `Germany's invasion of the Soviet Union in June 1941 (Operation Barbarossa) galvanized the Yugoslav Communist Party to organize an armed resistance. Led by Josip Broz Tito, the communist Partisans rapidly became the most effective resistance force, fighting the occupiers across Yugoslavia. In 1943, the Western Allies switched their backing from the royalist Chetniks to Tito's Partisans after seeing the Partisans' success against the Germans. Allied support (and Soviet advances) helped Tito's forces grow, and by the end of the war the Partisans liberated Yugoslavia and emerged as the country's new governing power.`,
+      type: 'history',
+      sources: [
+        { name: 'Britannica - Josip Broz Tito', url: 'https://www.britannica.com/biography/Josip-Broz-Tito' }
+      ],
+      afterParagraph: 2,
+    },
+    {
+      id: 'yugoslav-civil-war',
+      title: 'Civil War Among Yugoslav Factions',
+      subtitle: 'Internal Conflict 1942-1945',
+      content: `World War II in Yugoslavia also took on the character of a civil war between rival local factions. On one side were the Partisans (communist-led resistance), and on the other were anti-communist groups that collaborated with the Axis. In Slovenia, an Italian-sponsored militia (nicknamed the "White Guard") was later reorganized under Nazi command as the Slovene Home Guard (Domobranci) to fight the Partisans. Similarly, in Serbia the royalist Chetniks increasingly cooperated with German and Italian forces against Tito's Partisans. These conflicts pitted Yugoslav against Yugoslav – communists vs. nationalists – in a brutal internecine war that raged alongside the fight against the foreign occupiers.`,
+      type: 'history',
+      sources: [
+        { name: 'Wikipedia - Yugoslav Front', url: 'https://en.wikipedia.org/wiki/Yugoslav_front' }
+      ],
+      afterParagraph: 2,
+    },
+  ],
+  photos: [
+    {
+      id: 'italian-troops-invasion',
+      title: 'Italian Troops Invade Yugoslavia (April 1941)',
+      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Italian_Black_Shirt_battalion_entering_Yugoslavia.jpg',
+      caption: 'Italian Blackshirt battalion entering Slovenia on April 15, 1941. Mark remembers waking up one morning to find thousands of Italian soldiers in the countryside around Vizmarje.',
+      credit: 'Wikimedia Commons',
+      year: '1941',
+      sourceUrl: 'https://commons.wikimedia.org/wiki/File:Italian_Black_Shirt_battalion_entering_Yugoslavia.jpg',
+      afterParagraph: 0,
+    },
+    {
+      id: 'german-occupation-maribor',
+      title: 'German Occupation of Slovenia (1941)',
+      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/44/Nem%C5%A1ka_vojska_koraka_po_mariborskih_ulicah.jpg',
+      caption: 'German Wehrmacht soldiers marching through the streets of Maribor, Slovenia, after the Axis invasion in April 1941. The Italian forces that first occupied Mark\'s area were soon replaced by German troops.',
+      credit: 'Wikimedia Commons',
+      year: '1941',
+      sourceUrl: 'https://commons.wikimedia.org/wiki/File:Nem%C5%A1ka_vojska_koraka_po_mariborskih_ulicah.jpg',
+      afterParagraph: 0,
+    },
+    {
+      id: 'slovenian-deportation',
+      title: 'Civilians Deported from Slovenia (1941)',
+      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/f/fd/Izgon_prebivalcev_iz_Skopic_8._novembra_1941.jpg',
+      caption: 'Slovenian women and children being forcibly deported by German authorities from their village in November 1941. Nazi occupation policies in northern Slovenia included mass expulsions of Slovene civilians to make room for German settlers.',
+      credit: 'Wikimedia Commons',
+      year: '1941',
+      sourceUrl: 'https://commons.wikimedia.org/wiki/File:Izgon_prebivalcev_iz_Skopic_8._novembra_1941.jpg',
+      afterParagraph: 2,
+    },
+  ],
+  inlineMaps: [
+    {
+      id: 'axis-partition',
+      locationIds: ['ljubljana', 'maribor', 'vizmarje'],
+      title: 'Axis Partition of Slovenia',
+      description: 'After the April 1941 invasion, Yugoslavia was carved up by the Axis powers. Slovenia was split between Italy (which took Ljubljana and the southwest) and Nazi Germany (which annexed the northern areas including Maribor). Vizmarje fell under Italian occupation.',
+      afterParagraph: 0,
+    },
+  ],
+  annotations: {
+    'World War II': {
+      term: 'World War II',
+      definition: 'A global conflict fought from 1939 to 1945 between the Axis powers (Germany, Italy, Japan) and the Allied powers (including Britain, the Soviet Union, and the United States). World War II was the largest and deadliest war in history.',
+      type: 'event',
+      year: '1939-1945',
+    },
+    'Germany': {
+      term: 'Nazi Germany',
+      definition: 'The German nation-state under Adolf Hitler\'s Nazi regime (1933-1945). Nazi Germany was the primary Axis power in World War II.',
+      type: 'place',
+      year: '1933-1945',
+    },
+    'Italy': {
+      term: 'Fascist Italy',
+      definition: 'Italy under the Fascist dictatorship of Benito Mussolini (1922-1943), a major Axis power allied with Nazi Germany.',
+      type: 'place',
+      year: '1922-1943',
+    },
+    'Yugoslavia': {
+      term: 'Kingdom of Yugoslavia',
+      definition: 'The monarchy formed in 1918 that united South Slavic peoples after the collapse of Austria-Hungary. It was invaded and occupied by Axis forces in April 1941.',
+      type: 'place',
+      year: '1918-1941',
+    },
+    'Italian soldiers': {
+      term: 'Italian Occupation Forces',
+      definition: 'Fascist Italy occupied central Slovenia (including Ljubljana) from 1941 until 1943, establishing the Province of Ljubljana under Italian administration.',
+      type: 'term',
+    },
+    'German troops': {
+      term: 'German Wehrmacht',
+      definition: 'Nazi Germany\'s armed forces. In Slovenia, German troops initially occupied the northern regions and later took over all of Slovenia after Italy\'s surrender in 1943.',
+      type: 'term',
+    },
+    'German language schools': {
+      term: 'Germanization',
+      definition: 'A Nazi policy of forcing German language and culture onto conquered peoples. Under German occupation, Slovenian schools were forced to teach only in German, with Slovene language banned.',
+      type: 'term',
+    },
+    'Russia': {
+      term: 'Operation Barbarossa',
+      definition: 'The code name for Hitler\'s invasion of the Soviet Union, launched on June 22, 1941. This opened the massive Eastern Front of World War II.',
+      type: 'event',
+      year: '1941',
+    },
+    'communists': {
+      term: 'Yugoslav Partisans',
+      definition: 'The communist-led guerrilla resistance army that fought the Axis occupiers in Yugoslavia. Organized by Tito in 1941, the Partisans eventually liberated Yugoslavia.',
+      type: 'term',
+    },
+    'Tito': {
+      term: 'Josip Broz Tito',
+      definition: 'The Communist leader of the Yugoslav Partisans during WWII and later president of socialist Yugoslavia. In 1943, the Allies recognized him as the chief Yugoslav resistance leader.',
+      type: 'person',
+    },
+    'nationalist people': {
+      term: 'Slovene Home Guard',
+      definition: 'A Slovene anti-communist militia formed during WWII with support from Italian and later German occupiers to fight against Tito\'s Partisans.',
+      type: 'term',
+    },
+    'civil war': {
+      term: 'Yugoslav Civil War',
+      definition: 'The internal conflict in Yugoslavia during WWII between communist Partisans and their Yugoslav rivals. Anti-communist groups collaborated with Axis occupiers, leading to a brutal civil war (1942-1945).',
+      type: 'event',
+      year: '1942-1945',
+    },
+  },
+};
+
 // Chapter 2: Childhood in Vizmarje (1935-1941)
 export const chapter2Context: ChapterContextData = {
   contextCards: [
@@ -393,6 +552,7 @@ export function getChapterContext(slug: string): ChapterContextData | null {
   const contextMap: Record<string, ChapterContextData> = {
     'origins-and-family-roots': chapter1Context,
     'childhood-in-vizmarje': chapter2Context,
+    'war-and-occupation': chapter3Context,
     'communist-takeover-and-loss': chapter4Context,
   };
   return contextMap[slug] || null;

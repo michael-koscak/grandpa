@@ -1,0 +1,158 @@
+[
+  {
+    "type": "photo",
+    "title": "Italian Troops Invade Yugoslavia (April 1941)",
+    "placement": "\"there were thousands of Italian soldiers in the countryside.\"",
+    "summary": "Italian Blackshirt battalion entering Slovenia (Yugoslavia) on April 15, 1941, during Italy's invasion of Yugoslavia:contentReference[oaicite:0]{index=0}.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Italian_Black_Shirt_battalion_entering_Yugoslavia.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Italian_Black_Shirt_battalion_entering_Yugoslavia.jpg",
+    "credit": "Wikimedia Commons",
+    "year": "1941"
+  },
+  {
+    "type": "photo",
+    "title": "German Occupation of Slovenia (1941)",
+    "placement": "\"The Italians were replaced by German troops.\"",
+    "summary": "German Wehrmacht soldiers marching through the streets of Maribor, Slovenia, soon after the Axis invasion in April 1941:contentReference[oaicite:1]{index=1}.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Nem%C5%A1ka_vojska_koraka_po_mariborskih_ulicah.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nem%C5%A1ka_vojska_koraka_po_mariborskih_ulicah.jpg",
+    "credit": "Wikimedia Commons",
+    "year": "1941"
+  },
+  {
+    "type": "photo",
+    "title": "Civilians Deported from Slovenia (1941)",
+    "placement": "\"started to resist and fight the Germans.\"",
+    "summary": "Slovenian women and children being forcibly deported by German authorities from their village in November 1941:contentReference[oaicite:2]{index=2}. Nazi occupation policies in northern Slovenia included mass expulsions of Slovene civilians to make room for German settlers.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Izgon_prebivalcev_iz_Skopic_8._novembra_1941.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Izgon_prebivalcev_iz_Skopic_8._novembra_1941.jpg",
+    "credit": "Wikimedia Commons",
+    "year": "1941"
+  },
+  {
+    "type": "context",
+    "title": "Axis Invasion and Partition of Yugoslavia (April 1941)",
+    "placement": "\"they declared war on Yugoslavia,\"",
+    "summary": "On April 6, 1941, the Axis powers (led by Germany and Italy) launched a massive invasion of Yugoslavia. The Yugoslav army crumbled within days. The country was then dismembered by the victors: Slovenia was partitioned – Fascist Italy annexed the southwest (including Ljubljana) while Nazi Germany took over the northern regions – and other parts of Yugoslavia were occupied by Hungary and Bulgaria or made into a puppet state (Croatia):contentReference[oaicite:3]{index=3}:contentReference[oaicite:4]{index=4}. The Yugoslav royal government fled into exile as Axis forces imposed their occupation.",
+    "link": "https://encyclopedia.ushmm.org/content/en/article/balkan-campaign-spring-1941"
+  },
+  {
+    "type": "context",
+    "title": "Italian vs. German Occupation of Slovenia",
+    "placement": "\"my part of the country was occupied by Italy.\"",
+    "summary": "After the April 1941 invasion, Italy occupied central Slovenia (establishing the Province of Ljubljana) while Germany annexed northern Slovenia:contentReference[oaicite:5]{index=5}:contentReference[oaicite:6]{index=6}. Italian rule was initially less harsh – many Slovene refugees fled German-held areas into Italian zone:contentReference[oaicite:7]{index=7} – but it grew more brutal once resistance began. By 1942–43, Italian authorities in Slovenia were deporting thousands of civilians to concentration camps and conducting reprisals comparable to the Germans' tactics:contentReference[oaicite:8]{index=8}. In September 1943, Italy surrendered to the Allies, and Nazi Germany quickly took over the Italian-occupied territory in Slovenia:contentReference[oaicite:9]{index=9}, extending German occupation to the whole region.",
+    "link": "https://en.wikipedia.org/wiki/Province_of_Ljubljana"
+  },
+  {
+    "type": "context",
+    "title": "Yugoslav Partisans and Allied Support for Tito",
+    "placement": "\"support the communist Jugoslavian leader Tito,\"",
+    "summary": "Germany’s invasion of the Soviet Union in June 1941 (Operation Barbarossa) galvanized the Yugoslav Communist Party to organize an armed resistance:contentReference[oaicite:10]{index=10}. Led by Josip Broz **Tito**, the communist Partisans rapidly became the most effective resistance force, fighting the occupiers across Yugoslavia. In 1943, the Western Allies switched their backing from the royalist Chetniks to Tito’s Partisans after seeing the Partisans' success against the Germans:contentReference[oaicite:11]{index=11}. Allied support (and Soviet advances) helped Tito’s forces grow, and by the end of the war the Partisans liberated Yugoslavia and emerged as the country’s new governing power.",
+    "link": "https://www.britannica.com/biography/Josip-Broz-Tito"
+  },
+  {
+    "type": "context",
+    "title": "Civil War Among Yugoslav Factions",
+    "placement": "\"started a civil war among the groups.\"",
+    "summary": "World War II in Yugoslavia also took on the character of a civil war between rival local factions. On one side were the **Partisans** (communist-led resistance), and on the other were anti-communist groups that collaborated with the Axis. In Slovenia, an Italian-sponsored militia (nicknamed the \"White Guard\") was later reorganized under Nazi command as the **Slovene Home Guard** (Domobranci) to fight the Partisans:contentReference[oaicite:12]{index=12}. Similarly, in Serbia the royalist **Chetniks** increasingly cooperated with German and Italian forces against Tito’s Partisans:contentReference[oaicite:13]{index=13}. These conflicts pitted Yugoslav against Yugoslav – communists vs. nationalists – in a brutal internecine war that raged alongside the fight against the foreign occupiers.",
+    "link": "https://en.wikipedia.org/wiki/Yugoslav_front"
+  },
+  {
+    "type": "map",
+    "title": "Axis Partition of Yugoslavia (1941)",
+    "placement": "\"they declared war on Yugoslavia,\"",
+    "summary": "Map of Yugoslavia after the April 1941 Axis invasion, illustrating how the country was carved up by the occupiers. Slovenia was split – Nazi Germany annexed the northern areas, while Fascist Italy took the southern part (Ljubljana province):contentReference[oaicite:14]{index=14}. Other regions of Yugoslavia were occupied or annexed by Hungary and Bulgaria, and the Independent State of Croatia was created as an Axis puppet regime.:contentReference[oaicite:15]{index=15}",
+    "locationIds": ["Ljubljana", "Maribor"]
+  },
+  {
+    "type": "map",
+    "title": "Vizmarje During WWII",
+    "placement": "\"my part of the country was occupied by Italy.\"",
+    "summary": "Vizmarje (a village near Ljubljana) fell under Italian occupation in 1941, as part of the Province of Ljubljana. After Italy’s capitulation in September 1943, German forces took over this area:contentReference[oaicite:16]{index=16} and remained in control until Yugoslavia was liberated in 1945.",
+    "locationIds": ["vizmarje"]
+  },
+  {
+    "type": "annotation",
+    "term": "World War II",
+    "placement": "\"World War II started in Europe in 1939.\"",
+    "summary": "A global conflict fought from 1939 to 1945 between the **Axis powers** (Germany, Italy, Japan) and the **Allied powers** (including Britain, the Soviet Union, and the United States):contentReference[oaicite:17]{index=17}. World War II was the largest and deadliest war in history, engulfing Europe, Asia, and beyond.",
+    "link": "https://www.britannica.com/event/World-War-II"
+  },
+  {
+    "type": "annotation",
+    "term": "Axis powers",
+    "placement": "\"Germany and Italy were allies in the war.\"",
+    "summary": "The **Axis powers** were the coalition of countries led by Germany, Italy, and Japan that fought against the Allies in World War II:contentReference[oaicite:18]{index=18}. These nations agreed on military and political cooperation, seeking to expand their territories and influence.",
+    "link": "https://www.britannica.com/topic/Axis-Powers"
+  },
+  {
+    "type": "annotation",
+    "term": "Invasion of Yugoslavia (April 1941)",
+    "placement": "\"they declared war on Yugoslavia,\"",
+    "summary": "The Axis invasion of Yugoslavia began on April 6, 1941, when Germany (with Italian, Hungarian, and Bulgarian support) attacked Yugoslavia:contentReference[oaicite:19]{index=19}. Belgrade was bombed and Yugoslav forces were overwhelmed. By mid-April 1941, Yugoslavia had surrendered and was occupied by the Axis.",
+    "link": "https://en.wikipedia.org/wiki/Invasion_of_Yugoslavia"
+  },
+  {
+    "type": "annotation",
+    "term": "Italian occupation",
+    "placement": "\"my part of the country was occupied by Italy.\"",
+    "summary": "Parts of Yugoslavia were occupied or annexed by Fascist Italy during World War II. In Slovenia, Italy controlled the **Province of Ljubljana** from 1941 until 1943:contentReference[oaicite:20]{index=20}, implementing its own administration and policies. Italian occupation initially tolerated Slovene institutions, but grew repressive as resistance mounted.",
+    "link": "https://en.wikipedia.org/wiki/Province_of_Ljubljana"
+  },
+  {
+    "type": "annotation",
+    "term": "German occupation",
+    "placement": "\"The Italians were replaced by German troops.\"",
+    "summary": "Nazi Germany occupied large parts of Yugoslavia. In April 1941 Germany annexed northern Slovenia (e.g. Upper Carniola and Lower Styria) into the Third Reich:contentReference[oaicite:21]{index=21}. German occupation authorities enforced German law and language, deported many Slovenes, and used violence to suppress resistance.",
+    "link": "https://encyclopedia.ushmm.org/content/en/article/balkan-campaign-spring-1941"
+  },
+  {
+    "type": "annotation",
+    "term": "Germanization",
+    "placement": "\"Our schools were changed to German language schools,\"",
+    "summary": "A policy of forcing German language and culture onto conquered peoples. Under Nazi rule in Slovenia, **Germanization** meant banning the Slovene language in schools and public life and replacing Slovene teachers with German ones:contentReference[oaicite:22]{index=22}. Children had to be taught in German, and many Slovene institutions were closed as part of this campaign to assimilate or eliminate Slovene identity.",
+    "link": "https://en.wikipedia.org/wiki/Germanisation"
+  },
+  {
+    "type": "annotation",
+    "term": "Operation Barbarossa (1941)",
+    "placement": "\"Germany went to war with Russia in 1942\"",
+    "summary": "The code name for Hitler’s invasion of the Soviet Union, launched on June 22, 1941:contentReference[oaicite:23]{index=23}. **Operation Barbarossa** opened the massive Eastern Front of World War II. Germany’s attack on the USSR ultimately failed and led to the Soviets joining the Allies against the Axis.",
+    "link": "https://www.britannica.com/event/Operation-Barbarossa"
+  },
+  {
+    "type": "annotation",
+    "term": "Josip Broz Tito",
+    "placement": "\"communist Jugoslavian leader Tito,\"",
+    "summary": "The Communist leader of the Yugoslav Partisans during WWII and later the lifelong president of socialist Yugoslavia. **Josip Broz Tito** led the most effective resistance against the Axis in Yugoslavia, and in 1943 the Allies recognized him as the chief Yugoslav resistance leader:contentReference[oaicite:24]{index=24}.",
+    "link": "https://www.britannica.com/biography/Josip-Broz-Tito"
+  },
+  {
+    "type": "annotation",
+    "term": "Yugoslav Partisans",
+    "placement": "\"the communists and various national groups started to resist and fight the Germans.\"",
+    "summary": "The **Yugoslav Partisans** were the communist-led guerrilla resistance army that fought the Axis occupiers in Yugoslavia. Organized by Tito in 1941, the Partisans rapidly grew into a large fighting force (including many non-communist fighters) and eventually liberated Yugoslavia with Allied help:contentReference[oaicite:25]{index=25}.",
+    "link": "https://en.wikipedia.org/wiki/Yugoslav_Partisans"
+  },
+  {
+    "type": "annotation",
+    "term": "Slovenian Home Guard (Domobranci)",
+    "placement": "\"the nationalist people ... allied themselves with the Germans and Italians\"",
+    "summary": "A Slovene anti-communist militia formed during WWII. The **Slovenian Home Guard** (Domobranci) was created in 1943 with support from Italian and later German occupiers to fight against Tito’s Partisans:contentReference[oaicite:26]{index=26}. Its members were Slovenian nationals who opposed the communist-led resistance, effectively collaborating with Axis forces.",
+    "link": "https://en.wikipedia.org/wiki/Slovene_Home_Guard"
+  },
+  {
+    "type": "annotation",
+    "term": "Yugoslav civil war",
+    "placement": "\"started a civil war among the groups.\"",
+    "summary": "Refers to the internal conflict in Yugoslavia during WWII between communist Partisans and their Yugoslav rivals. As the Partisans (Communists) gained strength, other groups like the royalist Chetniks and Slovene Home Guard turned against them, even collaborating with Axis occupiers:contentReference[oaicite:27]{index=27}. This led to a brutal civil war (1942–1945) fought concurrently with the national liberation struggle against the Axis.",
+    "link": "https://en.wikipedia.org/wiki/Yugoslav_Front_(World_War_II)"
+  },
+  {
+    "type": "annotation",
+    "term": "Communist resistance",
+    "placement": "\"the communists ... started to resist and fight the Germans.\"",
+    "summary": "Resistance movements led by Communist parties against Axis occupation. In Yugoslavia, the **communist resistance** was spearheaded by Tito’s Partisans, who began guerrilla warfare after the German attack on the Soviet Union in 1941:contentReference[oaicite:28]{index=28}. These communist-led fighters became the core of the armed struggle to liberate Yugoslavia from Axis control.",
+    "link": "https://encyclopedia.ushmm.org/content/en/article/partisan-groups-in-yugoslavia"
+  }
+]

@@ -1,5 +1,0 @@
-{
-  "buildCommand": "cd grandpa-story && npm run build",
-  "installCommand": "cd grandpa-story && npm install",
-  "outputDirectory": "grandpa-story/.next"
-}
