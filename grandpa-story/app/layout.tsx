@@ -43,7 +43,6 @@ export default function RootLayout({
       >
         <Header />
         <main>{children}</main>
-        <EnvDebug />
       </body>
     </html>
   );
