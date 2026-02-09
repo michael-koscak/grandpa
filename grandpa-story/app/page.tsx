@@ -44,7 +44,7 @@ export default function Home() {
           <div className="animate-fade-in delay-4">
             <Link
               href="/chapters/origins-and-family-roots"
-              className="inline-flex items-center gap-3 px-8 py-4 bg-accent text-paper rounded-lg font-[family-name:var(--font-source-sans)] font-medium text-lg hover:bg-accent-dark transition-colors duration-200 shadow-lg shadow-accent/20"
+              className="inline-flex items-center gap-3 px-8 py-4 bg-accent text-white rounded-lg font-[family-name:var(--font-source-sans)] font-medium text-lg hover:bg-accent-dark transition-colors duration-200 shadow-lg shadow-accent/20"
             >
               Begin Reading
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
